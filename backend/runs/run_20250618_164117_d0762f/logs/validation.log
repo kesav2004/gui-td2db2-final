@@ -1,0 +1,18 @@
+
+Table: SOURCE_SCHEMA.EMPLOYEE
+Source Rows: 10
+Source Time: 5.15s
+Target Rows: 10
+Target Time: 9.30s
+Rows in Source not in Target: 0
+Rows in Target not in Source: 0
+Field Mismatches: 0
+
+Table: TARGET_SCHEMA.EMPLOYEE
+Source Rows: 10
+Source Time: 9.03s
+Target Rows: 10
+Target Time: 4.09s
+Rows in Source not in Target: 0
+Rows in Target not in Source: 0
+Field Mismatches: 0

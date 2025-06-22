@@ -1,0 +1,47 @@
+2025-06-16 19:20:25,093 - INFO - Starting validation run run_20250616_192025_b00b84
+2025-06-16 19:20:25,093 - DEBUG - Request data: {'sourceSchema': 'SOURCE_SCHEMA', 'sourceTable': 'EMPLOYEE', 'targetSchema': 'TARGET_SCHEMA', 'targetTable': 'EMPLOYEE', 'includeColumns': ['BIRTHDATE', 'BONUS', 'COMM', 'EMPNO', 'EDLEVEL', 'FIRSTNME', 'HIREDATE', 'JOB', 'MIDINIT', 'LASTNAME', 'SALARY', 'PHONENO', 'SEX', 'WORKDEPT'], 'excludeColumns': [], 'keys': ['EMPNO'], 'predicate': '', 'groupby': [''], 'comparisonType': 'single', 'source': {'db_type': 'db2', 'host': 'tel-gdc-cdc-prakedia1.fyre.ibm.com', 'port': '25010', 'username': 'cdcadm ', 'password': 'Rajisthanisgreat@777I', 'database': 'SAMPLE'}, 'target': {'db_type': 'db2', 'host': 'tel-gdc-cdc-prakedia1.fyre.ibm.com', 'port': '25010', 'username': 'cdcadm', 'password': 'Rajisthanisgreat@777I', 'database': 'SAMPLE'}}
+2025-06-16 19:20:25,093 - INFO - Setting up single table comparison
+2025-06-16 19:20:25,094 - INFO - Writing configuration CSV
+2025-06-16 19:20:25,094 - INFO - Running schema script
+2025-06-16 19:20:25,307 - DEBUG - Schema script output: CSV File : config.csv
+DDL File : /Users/kesavapraadeep/Documents/gui/backend/ddl/ddl.sql
+
+DDL content length: 372 characters
+DDL content preview: CREATE TABLE SOURCE_SCHEMA.EMPLOYEE (
+    EMPNO CHARACTER(6),
+    FIRSTNME VARCHAR(12),
+    MIDINIT CHARACTER(1),
+    LASTNAME VARCHAR(15),
+    WORKDEPT CHARACTER(3),
+    PHONENO CHARACTER(4),
+    HIR...
+DDL parse result: {'EMPLOYEE': {'_keys_': [], '_user_': 'SOURCE_SCHEMA', '_columns_': ['EMPNO', 'FIRSTNME', 'MIDINIT', 'LASTNAME', 'WORKDEPT', 'PHONENO', 'HIREDATE', 'JOB', 'EDLEVEL', 'SEX', 'BIRTHDATE', 'SALARY', 'BONUS', 'COMM'], '_coltype_': {'EMPNO': 'CHARACTER', 'FIRSTNME': 'VARCHAR', 'MIDINIT': 'CHARACTER', 'LASTNAME': 'VARCHAR', 'WORKDEPT': 'CHARACTER', 'PHONENO': 'CHARACTER', 'HIREDATE': 'DATE', 'JOB': 'CHARACTER', 'EDLEVEL': 'SMALLINT', 'SEX': 'CHARACTER', 'BIRTHDATE': 'DATE', 'SALARY': 'DECIMAL', 'BONUS': 'DECIMAL', 'COMM': 'DECIMAL'}}}
+                    table  ... groupby_fields
+0  SOURCE_SCHEMA.EMPLOYEE  ...            NaN
+
+[1 rows x 6 columns]
+Looking for table: SOURCE_SCHEMA.EMPLOYEE
+Schema keys: ['EMPLOYEE']
+Processing 1 rows from CSV
+Row 0 - user_table: SOURCE_SCHEMA.EMPLOYEE
+Row 0 - parsed user: SOURCE_SCHEMA table: EMPLOYEE
+Row 0 - table found in schema: EMPLOYEE
+Row 0 - successfully processed
+File schema.py generated successfully!
+
+2025-06-16 19:20:25,307 - INFO - Running validation script
+2025-06-16 19:20:34,816 - DEBUG - Validation script output: Job started @ 2025/06/16 19:20:25
+
+Dir path : /Users/kesavapraadeep/Documents/gui/backend/runs/run_20250616_192025_b00b84
+
+Job ended @ 2025/06/16 19:20:34
+
+Find the report at /Users/kesavapraadeep/Documents/gui/backend/runs/run_20250616_192025_b00b84/logs
+
+2025-06-16 19:20:34,816 - INFO - Looking for validation log files
+2025-06-16 19:20:34,816 - INFO - Processing log file: runs/run_20250616_192025_b00b84/logs/validation.log
+2025-06-16 19:20:34,817 - INFO - Parsing validation results
+2025-06-16 19:20:34,817 - INFO - Formatting results for frontend
+2025-06-16 19:20:34,817 - INFO - Validation completed successfully
+2025-06-16 19:20:34,817 - INFO - 127.0.0.1 - - [16/Jun/2025 19:20:34] "POST /api/run-validation HTTP/1.1" 200 -
+2025-06-16 19:22:35,501 - INFO -  * Detected change in '/Users/kesavapraadeep/Documents/gui/backend/data_validation/routes.py', reloading

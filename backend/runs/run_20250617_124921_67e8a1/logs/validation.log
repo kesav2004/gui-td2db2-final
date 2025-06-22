@@ -1,0 +1,4 @@
+2025-06-17 12:49:30,244 - INFO - 127.0.0.1 - - [17/Jun/2025 12:49:30] "[35m[1mPOST /api/run-validation HTTP/1.1[0m" 500 -
+2025-06-17 12:50:07,830 - INFO - 127.0.0.1 - - [17/Jun/2025 12:50:07] "OPTIONS /api/run-validation HTTP/1.1" 200 -
+2025-06-17 12:50:16,507 - INFO - 127.0.0.1 - - [17/Jun/2025 12:50:16] "[35m[1mPOST /api/run-validation HTTP/1.1[0m" 500 -
+2025-06-17 12:51:32,853 - INFO -  * Detected change in '/Users/kesavapraadeep/Desktop/gui-tdc-final/backend/data_validation/routes.py', reloading

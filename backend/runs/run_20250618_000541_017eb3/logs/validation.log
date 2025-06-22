@@ -1,0 +1,13 @@
+
+Table: DB2INST1.EMPLOYEE
+Source Rows: 42
+Source Checksum: -7400179797882204214
+Source Time: 12.99s
+Target Rows: 1000042
+Target Checksum: -7400179797882204214
+Target Time: 74.78s
+Rows in Source not in Target: 0
+Rows in Target not in Source: 1000000
+Field Mismatches: 0
+Mismatch Details:2025-06-18 00:07:26,239 - INFO - 127.0.0.1 - - [18/Jun/2025 00:07:26] "POST /api/run-validation HTTP/1.1" 200 -
+2025-06-18 00:37:44,046 - INFO -  * Detected change in '/Users/kesavapraadeep/Desktop/gui-tdc-final/backend/data_validation/routes.py', reloading

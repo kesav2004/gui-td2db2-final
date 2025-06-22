@@ -1,0 +1,13 @@
+
+Table: DB2INST1.EMPLOYEE2
+Source Rows: 1000
+Source Time: 11.06s
+Target Rows: 42
+Target Time: 4.07s
+Rows in Source not in Target: 10
+Rows in Target not in Source: 0
+Field Mismatches: 02025-06-18 12:32:55,490 - INFO - 127.0.0.1 - - [18/Jun/2025 12:32:55] "POST /api/run-validation HTTP/1.1" 200 -
+2025-06-18 12:36:04,229 - INFO - 127.0.0.1 - - [18/Jun/2025 12:36:04] "OPTIONS /api/tables HTTP/1.1" 200 -
+2025-06-18 12:36:06,547 - INFO - 127.0.0.1 - - [18/Jun/2025 12:36:06] "POST /api/tables HTTP/1.1" 200 -
+2025-06-18 12:36:07,884 - INFO - 127.0.0.1 - - [18/Jun/2025 12:36:07] "POST /api/tables HTTP/1.1" 200 -
+2025-06-18 12:42:24,675 - INFO -  * Detected change in '/Users/kesavapraadeep/Desktop/gui-tdc-final/backend/data_validation/routes.py', reloading

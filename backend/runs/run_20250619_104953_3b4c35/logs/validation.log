@@ -1,0 +1,24 @@
+
+Table: SOURCE_SCHEMA.EMPLOYEE
+Source Rows: 10
+Source Time: 12.66s
+Target Rows: 10
+Target Time: 11.05s
+Rows in Source not in Target: 1
+Rows in Target not in Source: 1
+Field Mismatches: 22025-06-19 10:51:51,004 - INFO - 127.0.0.1 - - [19/Jun/2025 10:51:51] "POST /api/run-validation HTTP/1.1" 200 -
+2025-06-19 11:03:59,734 - INFO - 127.0.0.1 - - [19/Jun/2025 11:03:59] "OPTIONS /api/validate HTTP/1.1" 200 -
+2025-06-19 11:04:03,332 - INFO - 127.0.0.1 - - [19/Jun/2025 11:04:03] "POST /api/validate HTTP/1.1" 200 -
+2025-06-19 11:04:03,351 - INFO - 127.0.0.1 - - [19/Jun/2025 11:04:03] "OPTIONS /api/schemas HTTP/1.1" 200 -
+2025-06-19 11:04:05,461 - INFO - 127.0.0.1 - - [19/Jun/2025 11:04:05] "POST /api/schemas HTTP/1.1" 200 -
+2025-06-19 11:04:29,893 - INFO - 127.0.0.1 - - [19/Jun/2025 11:04:29] "OPTIONS /api/validate HTTP/1.1" 200 -
+2025-06-19 11:04:33,216 - INFO - 127.0.0.1 - - [19/Jun/2025 11:04:33] "POST /api/validate HTTP/1.1" 200 -
+2025-06-19 11:04:33,231 - INFO - 127.0.0.1 - - [19/Jun/2025 11:04:33] "OPTIONS /api/schemas HTTP/1.1" 200 -
+2025-06-19 11:04:36,548 - INFO - 127.0.0.1 - - [19/Jun/2025 11:04:36] "POST /api/schemas HTTP/1.1" 200 -
+2025-06-19 11:04:51,637 - INFO - 127.0.0.1 - - [19/Jun/2025 11:04:51] "OPTIONS /api/tables HTTP/1.1" 200 -
+2025-06-19 11:04:55,926 - INFO - 127.0.0.1 - - [19/Jun/2025 11:04:55] "POST /api/tables HTTP/1.1" 200 -
+2025-06-19 11:04:57,370 - INFO - 127.0.0.1 - - [19/Jun/2025 11:04:57] "OPTIONS /api/columns HTTP/1.1" 200 -
+2025-06-19 11:04:58,201 - INFO - 127.0.0.1 - - [19/Jun/2025 11:04:58] "POST /api/tables HTTP/1.1" 200 -
+2025-06-19 11:05:01,635 - INFO - 127.0.0.1 - - [19/Jun/2025 11:05:01] "POST /api/columns HTTP/1.1" 200 -
+2025-06-19 11:05:38,532 - INFO - 127.0.0.1 - - [19/Jun/2025 11:05:38] "OPTIONS /api/run-validation HTTP/1.1" 200 -
+2025-06-19 11:07:34,076 - INFO - 127.0.0.1 - - [19/Jun/2025 11:07:34] "POST /api/run-validation HTTP/1.1" 200 -

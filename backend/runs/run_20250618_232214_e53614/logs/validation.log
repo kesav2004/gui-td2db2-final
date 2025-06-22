@@ -1,0 +1,9 @@
+2025-06-18 23:22:26,055 - INFO - 127.0.0.1 - - [18/Jun/2025 23:22:26] "[35m[1mPOST /api/run-validation HTTP/1.1[0m" 500 -
+2025-06-18 23:28:21,071 - INFO - 127.0.0.1 - - [18/Jun/2025 23:28:21] "OPTIONS /api/tables HTTP/1.1" 200 -
+2025-06-18 23:28:25,459 - INFO - 127.0.0.1 - - [18/Jun/2025 23:28:25] "POST /api/tables HTTP/1.1" 200 -
+2025-06-18 23:28:28,782 - INFO - 127.0.0.1 - - [18/Jun/2025 23:28:28] "POST /api/tables HTTP/1.1" 200 -
+2025-06-18 23:28:29,319 - INFO - 127.0.0.1 - - [18/Jun/2025 23:28:29] "OPTIONS /api/columns HTTP/1.1" 200 -
+2025-06-18 23:28:33,692 - INFO - 127.0.0.1 - - [18/Jun/2025 23:28:33] "POST /api/columns HTTP/1.1" 200 -
+2025-06-18 23:28:40,919 - INFO - 127.0.0.1 - - [18/Jun/2025 23:28:40] "OPTIONS /api/run-validation HTTP/1.1" 200 -
+2025-06-18 23:28:47,206 - INFO - 127.0.0.1 - - [18/Jun/2025 23:28:47] "[35m[1mPOST /api/run-validation HTTP/1.1[0m" 500 -
+2025-06-18 23:29:20,336 - INFO -  * Detected change in '/Users/kesavapraadeep/Desktop/gui-tdc-final/backend/data_validation/routes.py', reloading

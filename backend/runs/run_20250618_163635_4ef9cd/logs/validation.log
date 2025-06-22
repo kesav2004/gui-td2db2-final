@@ -1,0 +1,9 @@
+
+Table: DB2INST1.EMPLOYEE2
+Source Rows: 1000
+Source Time: 5.94s
+Target Rows: 1000
+Target Time: 9.54s
+Rows in Source not in Target: 10
+Rows in Target not in Source: 10
+Field Mismatches: 0

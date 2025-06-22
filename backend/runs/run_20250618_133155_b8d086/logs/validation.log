@@ -1,0 +1,450 @@
+
+Table: DB2INST1.ACT
+Source Rows: 18
+Source Time: 9.12s
+Target Rows: 18
+Target Time: 9.23s
+Rows in Source not in Target: 0
+Rows in Target not in Source: 0
+Field Mismatches: 0
+
+Table: DB2INST1.ADEFUSR
+Source Rows: 8
+Source Time: 9.79s
+Target Rows: 8
+Target Time: 9.31s
+Rows in Source not in Target: 0
+Rows in Target not in Source: 0
+Field Mismatches: 0
+
+Table: DB2INST1.CATALOG
+Source Rows: 0
+Source Time: 9.31s
+Target Rows: 0
+Target Time: 9.29s
+Rows in Source not in Target: 0
+Rows in Target not in Source: 0
+Field Mismatches: 0
+
+Table: DB2INST1.CL_SCHED
+Source Rows: 5
+Source Time: 9.13s
+Target Rows: 5
+Target Time: 9.26s
+Rows in Source not in Target: 0
+Rows in Target not in Source: 0
+Field Mismatches: 0
+
+Table: DB2INST1.CUSTOMER
+Source Rows: 6
+Source Time: 9.22s
+Target Rows: 6
+Target Time: 9.28s
+Rows in Source not in Target: 0
+Rows in Target not in Source: 0
+Field Mismatches: 0
+
+Table: DB2INST1.DEPARTMENT
+Source Rows: 14
+Source Time: 3.85s
+Target Rows: 14
+Target Time: 8.88s
+Rows in Source not in Target: 0
+Rows in Target not in Source: 0
+Field Mismatches: 0
+
+Table: DB2INST1.DEPT
+Source Rows: 14
+Source Time: 4.18s
+Target Rows: 14
+Target Time: 9.01s
+Rows in Source not in Target: 0
+Rows in Target not in Source: 0
+Field Mismatches: 0
+
+Table: DB2INST1.EMP
+Source Rows: 42
+Source Time: 4.29s
+Target Rows: 42
+Target Time: 9.01s
+Rows in Source not in Target: 0
+Rows in Target not in Source: 0
+Field Mismatches: 0
+
+Table: DB2INST1.EMPACT
+Source Rows: 73
+Source Time: 4.08s
+Target Rows: 73
+Target Time: 9.13s
+
+Table: DB2INST1.EMPLOYEE
+Source Rows: 42
+Source Time: 9.17s
+Target Rows: 42
+Target Time: 3.96s
+Rows in Source not in Target: 0
+Rows in Target not in Source: 0
+Field Mismatches: 0
+
+Table: DB2INST1.EMPLOYEE2
+Source Rows: 1000
+Source Time: 9.21s
+Target Rows: 1000
+Target Time: 4.40s
+Rows in Source not in Target: 10
+Rows in Target not in Source: 10
+Field Mismatches: 0
+
+Table: DB2INST1.EMPLOYEE3
+Source Rows: 42
+Source Time: 9.22s
+Target Rows: 42
+Target Time: 4.09s
+Rows in Source not in Target: 0
+Rows in Target not in Source: 0
+Field Mismatches: 0
+
+Table: DB2INST1.EMPLOYEEPROJECTS
+Source Rows: 5
+Source Time: 9.11s
+Target Rows: 5
+Target Time: 4.41s
+
+Table: DB2INST1.EMPMDC
+Source Rows: 1000
+Source Time: 9.62s
+Target Rows: 1000
+Target Time: 9.53s
+Rows in Source not in Target: 0
+Rows in Target not in Source: 0
+Field Mismatches: 0
+
+Table: DB2INST1.EMPPROJACT
+Source Rows: 73
+Source Time: 9.12s
+Target Rows: 73
+Target Time: 9.31s
+
+Table: DB2INST1.EMP_ACT
+Source Rows: 73
+Source Time: 4.39s
+Target Rows: 73
+Target Time: 9.10s
+
+Table: DB2INST1.EMP_PHOTO
+Source Rows: 8
+Source Time: 9.02s
+Target Rows: 8
+Target Time: 4.01s
+
+Table: DB2INST1.EMP_RESUME
+Source Rows: 8
+Source Time: 9.11s
+Target Rows: 8
+Target Time: 4.08s
+
+Table: DB2INST1.INVENTORY
+Source Rows: 4
+Source Time: 9.01s
+Target Rows: 4
+Target Time: 8.94s
+Rows in Source not in Target: 0
+Rows in Target not in Source: 0
+Field Mismatches: 0
+
+Table: DB2INST1.IN_TRAY
+Source Rows: 3
+Source Time: 9.26s
+Target Rows: 3
+Target Time: 9.08s
+Rows in Source not in Target: 0
+Rows in Target not in Source: 0
+Field Mismatches: 0
+
+Table: DB2INST1.I_ASL_WAARDE
+Source: Failed to load
+
+Table: DB2INST1.I_ASL_WAARDE1
+Source Rows: 0
+Source Time: 4.04s
+Target Rows: 0
+Target Time: 9.32s
+Rows in Source not in Target: 0
+Rows in Target not in Source: 0
+Field Mismatches: 0
+
+Table: DB2INST1.JSON_TABLE
+Source Rows: 1
+Source Time: 4.20s
+Target Rows: 1
+Target Time: 8.90s
+Rows in Source not in Target: 0
+Rows in Target not in Source: 0
+Field Mismatches: 0
+
+Table: DB2INST1.M
+Source Rows: 0
+Source Time: 3.91s
+Target Rows: 0
+Target Time: 9.18s
+Rows in Source not in Target: 0
+Rows in Target not in Source: 0
+Field Mismatches: 0
+
+Table: DB2INST1.MYPARTITIONEDTABLE
+Source Rows: 3
+Source Time: 4.21s
+Target Rows: 3
+Target Time: 9.22s
+
+Table: DB2INST1.N
+Source Rows: 0
+Source Time: 8.98s
+Target Rows: 0
+Target Time: 4.13s
+Rows in Source not in Target: 0
+Rows in Target not in Source: 0
+Field Mismatches: 0
+
+Table: DB2INST1.ORG
+Source Rows: 8
+Source Time: 9.11s
+Target Rows: 8
+Target Time: 4.01s
+Rows in Source not in Target: 0
+Rows in Target not in Source: 0
+Field Mismatches: 0
+
+Table: DB2INST1.PRODUCT
+Source Rows: 4
+Source Time: 9.12s
+Target Rows: 4
+Target Time: 4.20s
+Rows in Source not in Target: 0
+Rows in Target not in Source: 0
+Field Mismatches: 0
+
+Table: DB2INST1.PRODUCTSUPPLIER
+Source Rows: 2
+Source Time: 9.19s
+Target Rows: 2
+Target Time: 4.20s
+Rows in Source not in Target: 0
+Rows in Target not in Source: 0
+Field Mismatches: 0
+
+Table: DB2INST1.PROJ
+Source Rows: 20
+Source Time: 9.17s
+Target Rows: 20
+Target Time: 4.01s
+Rows in Source not in Target: 0
+Rows in Target not in Source: 0
+Field Mismatches: 0
+
+Table: DB2INST1.PROJACT
+Source Rows: 65
+Source Time: 9.02s
+Target Rows: 65
+Target Time: 4.09s
+
+Table: DB2INST1.PROJECT
+Source Rows: 20
+Source Time: 9.21s
+Target Rows: 20
+Target Time: 9.32s
+Rows in Source not in Target: 0
+Rows in Target not in Source: 0
+Field Mismatches: 0
+
+Table: DB2INST1.PURCHASEORDER
+Source Rows: 6
+Source Time: 9.41s
+Target Rows: 6
+Target Time: 9.35s
+Rows in Source not in Target: 0
+Rows in Target not in Source: 0
+Field Mismatches: 0
+
+Table: DB2INST1.SALES
+Source Rows: 41
+Source Time: 4.29s
+Target Rows: 41
+Target Time: 9.11s
+
+Table: DB2INST1.SAMPLE_DATA
+Source Rows: 0
+Source Time: 9.34s
+Target Rows: 0
+Target Time: 4.19s
+Rows in Source not in Target: 0
+Rows in Target not in Source: 0
+Field Mismatches: 0
+
+Table: DB2INST1.STAFF
+Source Rows: 35
+Source Time: 9.22s
+Target Rows: 35
+Target Time: 4.17s
+Rows in Source not in Target: 0
+Rows in Target not in Source: 0
+Field Mismatches: 0
+
+Table: DB2INST1.STAFFG
+Source Rows: 35
+Source Time: 9.13s
+Target Rows: 35
+Target Time: 4.32s
+Rows in Source not in Target: 0
+Rows in Target not in Source: 0
+Field Mismatches: 0
+
+Table: DB2INST1.SUPPLIERS
+Source Rows: 2
+Source Time: 9.11s
+Target Rows: 2
+Target Time: 4.09s
+Rows in Source not in Target: 0
+Rows in Target not in Source: 0
+Field Mismatches: 0
+
+Table: DB2INST1.VACT
+Source Rows: 18
+Source Time: 9.16s
+Target Rows: 18
+Target Time: 4.25s
+Rows in Source not in Target: 0
+Rows in Target not in Source: 0
+Field Mismatches: 0
+
+Table: DB2INST1.VASTRDE1
+Source Rows: 14
+Source Time: 9.19s
+Target Rows: 14
+Target Time: 4.30s
+
+Table: DB2INST1.VASTRDE2
+Source Rows: 42
+Source Time: 9.31s
+Target Rows: 42
+Target Time: 9.23s
+
+Table: DB2INST1.VDEPMG1
+Source Rows: 14
+Source Time: 4.10s
+Target Rows: 14
+Target Time: 9.42s
+Rows in Source not in Target: 6
+Rows in Target not in Source: 6
+Field Mismatches: 0
+
+Table: DB2INST1.VDEPT
+Source Rows: 14
+Source Time: 3.94s
+Target Rows: 14
+Target Time: 9.12s
+Rows in Source not in Target: 0
+Rows in Target not in Source: 0
+Field Mismatches: 0
+
+Table: DB2INST1.VEMP
+Source Rows: 42
+Source Time: 4.41s
+Target Rows: 42
+Target Time: 9.11s
+Rows in Source not in Target: 0
+Rows in Target not in Source: 0
+Field Mismatches: 0
+
+Table: DB2INST1.VEMPDPT1
+Source Rows: 42
+Source Time: 3.99s
+Target Rows: 42
+Target Time: 9.10s
+Rows in Source not in Target: 0
+Rows in Target not in Source: 0
+Field Mismatches: 0
+
+Table: DB2INST1.VEMPLP
+Source Rows: 42
+Source Time: 4.02s
+Target Rows: 42
+Target Time: 8.84s
+Rows in Source not in Target: 0
+Rows in Target not in Source: 0
+Field Mismatches: 0
+
+Table: DB2INST1.VEMPPROJACT
+Source Rows: 73
+Source Time: 3.88s
+Target Rows: 73
+Target Time: 8.91s
+
+Table: DB2INST1.VFORPLA
+Source Rows: 74
+Source Time: 8.90s
+Target Rows: 74
+Target Time: 3.90s
+
+Table: DB2INST1.VHDEPT
+Source Rows: 14
+Source Time: 8.87s
+Target Rows: 14
+Target Time: 8.83s
+Rows in Source not in Target: 0
+Rows in Target not in Source: 0
+Field Mismatches: 0
+
+Table: DB2INST1.VPHONE
+Source Rows: 42
+Source Time: 8.91s
+Target Rows: 42
+Target Time: 8.90s
+
+Table: DB2INST1.VPROJ
+Source Rows: 20
+Source Time: 3.84s
+Target Rows: 20
+Target Time: 8.84s
+Rows in Source not in Target: 0
+Rows in Target not in Source: 0
+Field Mismatches: 0
+
+Table: DB2INST1.VPROJACT
+Source Rows: 65
+Source Time: 3.90s
+Target Rows: 65
+Target Time: 8.85s
+
+Table: DB2INST1.VPROJRE1
+Source Rows: 20
+Source Time: 8.87s
+Target Rows: 20
+Target Time: 3.88s
+
+Table: DB2INST1.VPSTRDE1
+Source Rows: 14
+Source Time: 8.83s
+Target Rows: 14
+Target Time: 8.89s
+
+Table: DB2INST1.VPSTRDE2
+Source Rows: 13
+Source Time: 3.84s
+Target Rows: 13
+Target Time: 8.85s
+Rows in Source not in Target: 0
+Rows in Target not in Source: 0
+Field Mismatches: 0
+
+Table: DB2INST1.VSTAFAC1
+Source Rows: 65
+Source Time: 3.85s
+Target Rows: 65
+Target Time: 8.87s
+
+Table: DB2INST1.VSTAFAC2
+Source Rows: 73
+Source Time: 8.85s
+Target Rows: 73
+Target Time: 3.85s

@@ -1,0 +1,13 @@
+
+Table: SOURCE_SCHEMA.EMPLOYEE
+Source Rows: 10
+Source Checksum: -7400179797882204214
+Source Time: 12.59s
+Target Rows: 10
+Target Checksum: -7400179797882204214
+Target Time: 10.78s
+Rows in Source not in Target: 0
+Rows in Target not in Source: 0
+Field Mismatches: 0
+Mismatch Details:2025-06-17 23:25:09,722 - INFO - 127.0.0.1 - - [17/Jun/2025 23:25:09] "POST /api/run-validation HTTP/1.1" 200 -
+2025-06-17 23:55:27,188 - INFO -  * Detected change in '/Users/kesavapraadeep/Desktop/gui-tdc-final/backend/data_validation/routes.py', reloading

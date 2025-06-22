@@ -1,0 +1,2 @@
+2025-06-16 22:04:10,569 - INFO - 127.0.0.1 - - [16/Jun/2025 22:04:10] "[35m[1mPOST /api/run-validation HTTP/1.1[0m" 500 -
+2025-06-16 22:16:39,354 - INFO -  * Detected change in '/Users/kesavapraadeep/Documents/gui-tdc/backend/data_validation/routes.py', reloading

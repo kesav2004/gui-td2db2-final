@@ -1,0 +1,6 @@
+2025-06-16 22:36:48,524 - INFO - 127.0.0.1 - - [16/Jun/2025 22:36:48] "POST /api/run-validation HTTP/1.1" 200 -
+2025-06-16 22:39:53,010 - INFO - 127.0.0.1 - - [16/Jun/2025 22:39:53] "OPTIONS /api/generate-ddl HTTP/1.1" 200 -
+2025-06-16 22:39:57,682 - INFO - 127.0.0.1 - - [16/Jun/2025 22:39:57] "POST /api/generate-ddl HTTP/1.1" 200 -
+2025-06-16 22:40:23,791 - INFO - 127.0.0.1 - - [16/Jun/2025 22:40:23] "OPTIONS /api/run-validation HTTP/1.1" 200 -
+2025-06-16 22:40:28,716 - INFO - 127.0.0.1 - - [16/Jun/2025 22:40:28] "POST /api/run-validation HTTP/1.1" 200 -
+2025-06-16 22:43:17,534 - INFO -  * Detected change in '/Users/kesavapraadeep/Documents/gui-tdc/backend/create_schema_updated.py', reloading

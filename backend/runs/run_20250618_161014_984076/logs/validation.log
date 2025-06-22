@@ -1,0 +1,22 @@
+
+Table: DB2INST1.EMPLOYEE
+Source Rows: 42
+Source Time: 5.65s
+Target Rows: 42
+Target Time: 9.44s
+Rows in Source not in Target: 0
+Rows in Target not in Source: 0
+Field Mismatches: 0
+
+Table: DB2INST1.EMPLOYEE2
+Source Rows: 1000
+Source Time: 9.72s
+Target Rows: 1000
+Target Time: 4.48s
+Rows in Source not in Target: 10
+Rows in Target not in Source: 10
+Field Mismatches: 02025-06-18 16:11:52,024 - INFO - 127.0.0.1 - - [18/Jun/2025 16:11:52] "POST /api/run-validation HTTP/1.1" 200 -
+2025-06-18 16:12:19,904 - INFO - 127.0.0.1 - - [18/Jun/2025 16:12:19] "OPTIONS /api/tables HTTP/1.1" 200 -
+2025-06-18 16:12:22,227 - INFO - 127.0.0.1 - - [18/Jun/2025 16:12:22] "POST /api/tables HTTP/1.1" 200 -
+2025-06-18 16:12:23,618 - INFO - 127.0.0.1 - - [18/Jun/2025 16:12:23] "POST /api/tables HTTP/1.1" 200 -
+2025-06-18 16:12:26,880 - INFO - 127.0.0.1 - - [18/Jun/2025 16:12:26] "OPTIONS /api/run-validation HTTP/1.1" 200 -

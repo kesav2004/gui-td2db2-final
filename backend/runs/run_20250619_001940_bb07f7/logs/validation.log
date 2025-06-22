@@ -1,0 +1,41 @@
+
+Table: SOURCE_SCHEMA.EMPLOYEE
+Source Rows: 10
+Source Time: 12.92s
+Target Rows: 10
+Target Time: 11.16s
+Rows in Source not in Target: 1
+Rows in Target not in Source: 1
+Field Mismatches: 22025-06-19 00:21:40,460 - INFO - 127.0.0.1 - - [19/Jun/2025 00:21:40] "POST /api/run-validation HTTP/1.1" 200 -
+2025-06-19 00:21:59,491 - INFO - 127.0.0.1 - - [19/Jun/2025 00:21:59] "GET /api/report HTTP/1.1" 200 -
+2025-06-19 00:29:31,518 - INFO - 127.0.0.1 - - [19/Jun/2025 00:29:31] "OPTIONS /api/run-validation HTTP/1.1" 200 -
+2025-06-19 00:31:32,756 - INFO - 127.0.0.1 - - [19/Jun/2025 00:31:32] "POST /api/run-validation HTTP/1.1" 200 -
+2025-06-19 00:35:39,559 - INFO - 127.0.0.1 - - [19/Jun/2025 00:35:39] "GET /api/formatted-validation-report HTTP/1.1" 200 -
+2025-06-19 00:36:55,558 - INFO - 127.0.0.1 - - [19/Jun/2025 00:36:55] "OPTIONS /api/columns HTTP/1.1" 200 -
+2025-06-19 00:36:55,560 - INFO - 127.0.0.1 - - [19/Jun/2025 00:36:55] "OPTIONS /api/schemas HTTP/1.1" 200 -
+2025-06-19 00:36:55,562 - INFO - 127.0.0.1 - - [19/Jun/2025 00:36:55] "OPTIONS /api/schemas HTTP/1.1" 200 -
+2025-06-19 00:36:55,562 - INFO - 127.0.0.1 - - [19/Jun/2025 00:36:55] "OPTIONS /api/tables HTTP/1.1" 200 -
+2025-06-19 00:36:55,562 - INFO - 127.0.0.1 - - [19/Jun/2025 00:36:55] "OPTIONS /api/tables HTTP/1.1" 200 -
+2025-06-19 00:36:58,886 - INFO - 127.0.0.1 - - [19/Jun/2025 00:36:58] "POST /api/schemas HTTP/1.1" 200 -
+2025-06-19 00:36:58,887 - INFO - 127.0.0.1 - - [19/Jun/2025 00:36:58] "POST /api/schemas HTTP/1.1" 200 -
+2025-06-19 00:36:58,917 - INFO - 127.0.0.1 - - [19/Jun/2025 00:36:58] "POST /api/schemas HTTP/1.1" 200 -
+2025-06-19 00:36:59,228 - INFO - 127.0.0.1 - - [19/Jun/2025 00:36:59] "POST /api/tables HTTP/1.1" 200 -
+2025-06-19 00:36:59,229 - INFO - 127.0.0.1 - - [19/Jun/2025 00:36:59] "POST /api/tables HTTP/1.1" 200 -
+2025-06-19 00:37:00,225 - INFO - 127.0.0.1 - - [19/Jun/2025 00:37:00] "POST /api/columns HTTP/1.1" 200 -
+2025-06-19 00:37:02,480 - INFO - 127.0.0.1 - - [19/Jun/2025 00:37:02] "POST /api/schemas HTTP/1.1" 200 -
+2025-06-19 00:37:02,480 - INFO - 127.0.0.1 - - [19/Jun/2025 00:37:02] "POST /api/schemas HTTP/1.1" 200 -
+2025-06-19 00:37:02,480 - INFO - 127.0.0.1 - - [19/Jun/2025 00:37:02] "POST /api/schemas HTTP/1.1" 200 -
+2025-06-19 00:37:02,836 - INFO - 127.0.0.1 - - [19/Jun/2025 00:37:02] "POST /api/tables HTTP/1.1" 200 -
+2025-06-19 00:37:02,836 - INFO - 127.0.0.1 - - [19/Jun/2025 00:37:02] "POST /api/tables HTTP/1.1" 200 -
+2025-06-19 00:37:03,580 - INFO - 127.0.0.1 - - [19/Jun/2025 00:37:03] "POST /api/tables HTTP/1.1" 200 -
+2025-06-19 00:37:05,547 - INFO - 127.0.0.1 - - [19/Jun/2025 00:37:05] "POST /api/schemas HTTP/1.1" 200 -
+2025-06-19 00:37:05,547 - INFO - 127.0.0.1 - - [19/Jun/2025 00:37:05] "POST /api/schemas HTTP/1.1" 200 -
+2025-06-19 00:37:05,856 - INFO - 127.0.0.1 - - [19/Jun/2025 00:37:05] "POST /api/tables HTTP/1.1" 200 -
+2025-06-19 00:37:05,856 - INFO - 127.0.0.1 - - [19/Jun/2025 00:37:05] "POST /api/schemas HTTP/1.1" 200 -
+2025-06-19 00:37:05,857 - INFO - 127.0.0.1 - - [19/Jun/2025 00:37:05] "POST /api/tables HTTP/1.1" 200 -
+2025-06-19 00:37:06,692 - INFO - 127.0.0.1 - - [19/Jun/2025 00:37:06] "POST /api/tables HTTP/1.1" 200 -
+2025-06-19 00:37:07,496 - INFO - 127.0.0.1 - - [19/Jun/2025 00:37:07] "POST /api/schemas HTTP/1.1" 200 -
+2025-06-19 00:37:07,790 - INFO - 127.0.0.1 - - [19/Jun/2025 00:37:07] "POST /api/tables HTTP/1.1" 200 -
+2025-06-19 00:37:07,817 - INFO - 127.0.0.1 - - [19/Jun/2025 00:37:07] "POST /api/schemas HTTP/1.1" 200 -
+2025-06-19 00:37:07,819 - INFO - 127.0.0.1 - - [19/Jun/2025 00:37:07] "POST /api/schemas HTTP/1.1" 200 -
+2025-06-19 00:37:08,469 - INFO -  * Detected change in '/Users/kesavapraadeep/Desktop/gui-tdc-final/backend/data_validation/routes.py', reloading

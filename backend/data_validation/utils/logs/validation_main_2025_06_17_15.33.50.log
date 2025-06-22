@@ -1,0 +1,72 @@
++ echo 'Running validation @ 2025_06_17_15.33.50'
+Running validation @ 2025_06_17_15.33.50
++ command -v spark-submit
++ spark-submit --conf spark.pyspark.python=/Users/kesavapraadeep/Desktop/gui-tdc-final/backend/venv/bin/python --conf spark.pyspark.driver.python=/Users/kesavapraadeep/Desktop/gui-tdc-final/backend/venv/bin/python --conf 'spark.driver.extraJavaOptions=-Dfile.encoding=UTF-8 -Djava.awt.headless=true' --conf 'spark.executor.extraJavaOptions=-Dfile.encoding=UTF-8 -Djava.awt.headless=true' --conf spark.sql.adaptive.enabled=false --conf spark.serializer=org.apache.spark.serializer.KryoSerializer --conf spark.sql.execution.arrow.pyspark.enabled=true --driver-memory 2g --executor-memory 1g --jars /Users/kesavapraadeep/Desktop/gui-tdc-final/backend/jars/terajdbc4.jar,/Users/kesavapraadeep/Desktop/gui-tdc-final/backend/jars/db2jcc4.jar /Users/kesavapraadeep/Desktop/gui-tdc-final/backend/data_validation/utils/validate_main.py /Users/kesavapraadeep/Desktop/gui-tdc-final/backend/data_validation/utils
+WARNING: Using incubator modules: jdk.incubator.vector
+25/06/17 15:33:56 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+25/06/17 15:33:57 INFO SparkContext: Running Spark version 4.0.0
+25/06/17 15:33:57 INFO SparkContext: OS info Mac OS X, 15.1, aarch64
+25/06/17 15:33:57 INFO SparkContext: Java version 17.0.15
+25/06/17 15:33:57 INFO ResourceUtils: ==============================================================
+25/06/17 15:33:57 INFO ResourceUtils: No custom resources configured for spark.driver.
+25/06/17 15:33:57 INFO ResourceUtils: ==============================================================
+25/06/17 15:33:57 INFO SparkContext: Submitted application: Schema Validation
+25/06/17 15:33:57 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+25/06/17 15:33:57 INFO ResourceProfile: Limiting resource is cpu
+25/06/17 15:33:57 INFO ResourceProfileManager: Added ResourceProfile id: 0
+25/06/17 15:33:57 INFO SecurityManager: Changing view acls to: kesavapraadeep
+25/06/17 15:33:57 INFO SecurityManager: Changing modify acls to: kesavapraadeep
+25/06/17 15:33:57 INFO SecurityManager: Changing view acls groups to: kesavapraadeep
+25/06/17 15:33:57 INFO SecurityManager: Changing modify acls groups to: kesavapraadeep
+25/06/17 15:33:57 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: kesavapraadeep groups with view permissions: EMPTY; users with modify permissions: kesavapraadeep; groups with modify permissions: EMPTY; RPC SSL disabled
+25/06/17 15:33:57 INFO Utils: Successfully started service 'sparkDriver' on port 57475.
+25/06/17 15:33:57 INFO SparkEnv: Registering MapOutputTracker
+25/06/17 15:33:57 INFO SparkEnv: Registering BlockManagerMaster
+25/06/17 15:33:57 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+25/06/17 15:33:57 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+25/06/17 15:33:57 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+25/06/17 15:33:57 INFO DiskBlockManager: Created local directory at /private/var/folders/yz/gjhdhsx536946ml8htm3_56r0000gn/T/blockmgr-5f3626eb-3d18-411b-9b44-1906ebfc0696
+25/06/17 15:33:57 INFO SparkEnv: Registering OutputCommitCoordinator
+25/06/17 15:33:57 INFO JettyUtils: Start Jetty 0.0.0.0:4040 for SparkUI
+25/06/17 15:33:57 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+25/06/17 15:33:57 INFO SparkContext: Added JAR file:///Users/kesavapraadeep/Desktop/gui-tdc-final/backend/jars/terajdbc4.jar at spark://172.16.0.247:57475/jars/terajdbc4.jar with timestamp 1750154637336
+25/06/17 15:33:57 INFO SparkContext: Added JAR file:///Users/kesavapraadeep/Desktop/gui-tdc-final/backend/jars/db2jcc4.jar at spark://172.16.0.247:57475/jars/db2jcc4.jar with timestamp 1750154637336
+25/06/17 15:33:57 INFO SecurityManager: Changing view acls to: kesavapraadeep
+25/06/17 15:33:57 INFO SecurityManager: Changing modify acls to: kesavapraadeep
+25/06/17 15:33:57 INFO SecurityManager: Changing view acls groups to: kesavapraadeep
+25/06/17 15:33:57 INFO SecurityManager: Changing modify acls groups to: kesavapraadeep
+25/06/17 15:33:57 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: kesavapraadeep groups with view permissions: EMPTY; users with modify permissions: kesavapraadeep; groups with modify permissions: EMPTY; RPC SSL disabled
+25/06/17 15:33:57 INFO Executor: Starting executor ID driver on host 172.16.0.247
+25/06/17 15:33:57 INFO Executor: OS info Mac OS X, 15.1, aarch64
+25/06/17 15:33:57 INFO Executor: Java version 17.0.15
+25/06/17 15:33:57 INFO Executor: Starting executor with user classpath (userClassPathFirst = false): ''
+25/06/17 15:33:57 INFO Executor: Created or updated repl class loader org.apache.spark.util.MutableURLClassLoader@554c8058 for default.
+25/06/17 15:33:57 INFO Executor: Fetching spark://172.16.0.247:57475/jars/terajdbc4.jar with timestamp 1750154637336
+25/06/17 15:33:57 INFO TransportClientFactory: Successfully created connection to /172.16.0.247:57475 after 8 ms (0 ms spent in bootstraps)
+25/06/17 15:33:57 INFO Utils: Fetching spark://172.16.0.247:57475/jars/terajdbc4.jar to /private/var/folders/yz/gjhdhsx536946ml8htm3_56r0000gn/T/spark-e8c386b9-5a40-4a11-95fe-706a52065762/userFiles-96b90888-006d-405a-a359-babd7302b7a3/fetchFileTemp1335992528014926121.tmp
+25/06/17 15:34:00 INFO Executor: Adding file:/private/var/folders/yz/gjhdhsx536946ml8htm3_56r0000gn/T/spark-e8c386b9-5a40-4a11-95fe-706a52065762/userFiles-96b90888-006d-405a-a359-babd7302b7a3/terajdbc4.jar to class loader default
+25/06/17 15:34:00 INFO Executor: Fetching spark://172.16.0.247:57475/jars/db2jcc4.jar with timestamp 1750154637336
+25/06/17 15:34:00 INFO Utils: Fetching spark://172.16.0.247:57475/jars/db2jcc4.jar to /private/var/folders/yz/gjhdhsx536946ml8htm3_56r0000gn/T/spark-e8c386b9-5a40-4a11-95fe-706a52065762/userFiles-96b90888-006d-405a-a359-babd7302b7a3/fetchFileTemp4869216610718524767.tmp
+25/06/17 15:34:00 INFO Executor: Adding file:/private/var/folders/yz/gjhdhsx536946ml8htm3_56r0000gn/T/spark-e8c386b9-5a40-4a11-95fe-706a52065762/userFiles-96b90888-006d-405a-a359-babd7302b7a3/db2jcc4.jar to class loader default
+25/06/17 15:34:00 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 57478.
+25/06/17 15:34:00 INFO NettyBlockTransferService: Server created on 172.16.0.247:57478
+25/06/17 15:34:00 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+25/06/17 15:34:00 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 172.16.0.247, 57478, None)
+25/06/17 15:34:00 INFO BlockManagerMasterEndpoint: Registering block manager 172.16.0.247:57478 with 1048.8 MiB RAM, BlockManagerId(driver, 172.16.0.247, 57478, None)
+25/06/17 15:34:00 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 172.16.0.247, 57478, None)
+25/06/17 15:34:00 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 172.16.0.247, 57478, None)
+❌ Error: [Errno 2] No such file or directory: '/Users/kesavapraadeep/Desktop/gui-tdc-final/backend/data_validation/utils/config.json'
+25/06/17 15:34:01 INFO SparkContext: SparkContext is stopping with exitCode 0 from stop at NativeMethodAccessorImpl.java:0.
+25/06/17 15:34:01 INFO SparkUI: Stopped Spark web UI at http://172.16.0.247:4040
+25/06/17 15:34:01 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+25/06/17 15:34:01 INFO MemoryStore: MemoryStore started with capacity 1048.8 MiB
+25/06/17 15:34:01 INFO MemoryStore: MemoryStore cleared
+25/06/17 15:34:01 INFO BlockManager: BlockManager stopped
+25/06/17 15:34:01 INFO BlockManagerMaster: BlockManagerMaster stopped
+25/06/17 15:34:01 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+25/06/17 15:34:01 INFO SparkContext: Successfully stopped SparkContext
+25/06/17 15:34:01 INFO ShutdownHookManager: Shutdown hook called
+25/06/17 15:34:01 INFO ShutdownHookManager: Deleting directory /private/var/folders/yz/gjhdhsx536946ml8htm3_56r0000gn/T/spark-e8c386b9-5a40-4a11-95fe-706a52065762/pyspark-9134767e-1850-4263-8934-20a593c2bc46
+25/06/17 15:34:01 INFO ShutdownHookManager: Deleting directory /private/var/folders/yz/gjhdhsx536946ml8htm3_56r0000gn/T/spark-0bccbc79-0f33-47ab-bce2-f7766a952241
+25/06/17 15:34:01 INFO ShutdownHookManager: Deleting directory /private/var/folders/yz/gjhdhsx536946ml8htm3_56r0000gn/T/spark-e8c386b9-5a40-4a11-95fe-706a52065762

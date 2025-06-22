@@ -1,0 +1,51 @@
+++ date '+%Y/%m/%d %H:%M:%S'
++ echo 'Job started @ 2025/06/17 14:41:02'
+Job started @ 2025/06/17 14:41:02
++ echo ''
+
++ echo 'Project root : /Users/kesavapraadeep/Desktop/gui-tdc-final'
+Project root : /Users/kesavapraadeep/Desktop/gui-tdc-final
++ echo 'Backend dir : /Users/kesavapraadeep/Desktop/gui-tdc-final/backend'
+Backend dir : /Users/kesavapraadeep/Desktop/gui-tdc-final/backend
++ echo 'Current dir : /Users/kesavapraadeep/Desktop/gui-tdc-final/backend/data_validation/utils'
+Current dir : /Users/kesavapraadeep/Desktop/gui-tdc-final/backend/data_validation/utils
++ echo 'Script dir : /Users/kesavapraadeep/Desktop/gui-tdc-final/backend/data_validation/utils'
+Script dir : /Users/kesavapraadeep/Desktop/gui-tdc-final/backend/data_validation/utils
++ echo 'Virtual env : /Users/kesavapraadeep/Desktop/gui-tdc-final/backend/venv'
+Virtual env : /Users/kesavapraadeep/Desktop/gui-tdc-final/backend/venv
++ echo 'JAR dir : /Users/kesavapraadeep/Desktop/gui-tdc-final/backend/jars'
+JAR dir : /Users/kesavapraadeep/Desktop/gui-tdc-final/backend/jars
++ echo 'Java home : /opt/homebrew/Cellar/openjdk@17/17.0.15/libexec/openjdk.jdk/Contents/Home'
+Java home : /opt/homebrew/Cellar/openjdk@17/17.0.15/libexec/openjdk.jdk/Contents/Home
+++ java -version
+++ head -n 1
++ echo 'Java version : openjdk version "17.0.15" 2025-04-15'
+Java version : openjdk version "17.0.15" 2025-04-15
++ echo 'Spark home : /Users/kesavapraadeep/Desktop/gui-tdc-final/backend/venv/lib/python3.13/site-packages/pyspark'
+Spark home : /Users/kesavapraadeep/Desktop/gui-tdc-final/backend/venv/lib/python3.13/site-packages/pyspark
+++ which python
++ echo 'Python path : /Users/kesavapraadeep/Desktop/gui-tdc-final/backend/venv/bin/python'
+Python path : /Users/kesavapraadeep/Desktop/gui-tdc-final/backend/venv/bin/python
++ echo 'PySpark version : 4.0.0'
+PySpark version : 4.0.0
++ command -v spark-submit
++ echo 'Using spark-submit to run validation...'
+Using spark-submit to run validation...
++ spark-submit --conf 'spark.driver.extraJavaOptions=-Dfile.encoding=UTF-8 -Djava.awt.headless=true -Xms1g' --conf 'spark.executor.extraJavaOptions=-Dfile.encoding=UTF-8 -Djava.awt.headless=true' --conf spark.sql.adaptive.enabled=false --conf spark.serializer=org.apache.spark.serializer.KryoSerializer --conf spark.driver.maxResultSize=1g --conf spark.sql.execution.arrow.pyspark.enabled=true --driver-memory 2g --executor-memory 1g --jars /Users/kesavapraadeep/Desktop/gui-tdc-final/backend/jars/terajdbc4.jar,/Users/kesavapraadeep/Desktop/gui-tdc-final/backend/jars/db2jcc4.jar /Users/kesavapraadeep/Desktop/gui-tdc-final/backend/data_validation/utils/validate_main.py /Users/kesavapraadeep/Desktop/gui-tdc-final/backend/data_validation/utils
+WARNING: Using incubator modules: jdk.incubator.vector
+25/06/17 14:41:08 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Traceback (most recent call last):
+  File "/Users/kesavapraadeep/Desktop/gui-tdc-final/backend/data_validation/utils/validate_main.py", line 4, in <module>
+    import pandas as pd
+  File "/Users/kesavapraadeep/Desktop/gui-tdc-final/backend/venv/lib/python3.13/site-packages/pyspark/pandas/__init__.py", line 28, in <module>
+    from pyspark.pandas.missing.general_functions import MissingPandasLikeGeneralFunctions
+  File "/Users/kesavapraadeep/Desktop/gui-tdc-final/backend/venv/lib/python3.13/site-packages/pyspark/python/lib/pyspark.zip/pyspark/pandas/__init__.py", line 33, in <module>
+    require_minimum_pandas_version()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/kesavapraadeep/Desktop/gui-tdc-final/backend/venv/lib/python3.13/site-packages/pyspark/python/lib/pyspark.zip/pyspark/sql/pandas/utils.py", line 43, in require_minimum_pandas_version
+    raise PySparkImportError(
+    ...<5 lines>...
+    ) from raised_error
+pyspark.errors.exceptions.base.PySparkImportError: [PACKAGE_NOT_INSTALLED] Pandas >= 2.0.0 must be installed; however, it was not found.
+25/06/17 14:41:08 INFO ShutdownHookManager: Shutdown hook called
+25/06/17 14:41:08 INFO ShutdownHookManager: Deleting directory /private/var/folders/yz/gjhdhsx536946ml8htm3_56r0000gn/T/spark-dfd4b085-2c23-41be-a5e3-7bc8cac3fcd6

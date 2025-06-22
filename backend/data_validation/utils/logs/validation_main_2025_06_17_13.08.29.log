@@ -1,0 +1,36 @@
+++ date '+%Y/%m/%d %H:%M:%S'
++ echo 'Job started @ 2025/06/17 13:08:29'
+Job started @ 2025/06/17 13:08:29
++ echo ''
+
++ echo 'Project root : /Users/kesavapraadeep/Desktop/gui-tdc-final'
+Project root : /Users/kesavapraadeep/Desktop/gui-tdc-final
++ echo 'Backend dir : /Users/kesavapraadeep/Desktop/gui-tdc-final/backend'
+Backend dir : /Users/kesavapraadeep/Desktop/gui-tdc-final/backend
++ echo 'Current dir : /Users/kesavapraadeep/Desktop/gui-tdc-final/backend/data_validation/utils'
+Current dir : /Users/kesavapraadeep/Desktop/gui-tdc-final/backend/data_validation/utils
++ echo 'Script dir : /Users/kesavapraadeep/Desktop/gui-tdc-final/backend/data_validation/utils'
+Script dir : /Users/kesavapraadeep/Desktop/gui-tdc-final/backend/data_validation/utils
++ echo 'Virtual env : /Users/kesavapraadeep/Desktop/gui-tdc-final/backend/venv'
+Virtual env : /Users/kesavapraadeep/Desktop/gui-tdc-final/backend/venv
++ echo 'JAR dir : /Users/kesavapraadeep/Desktop/gui-tdc-final/backend/jars'
+JAR dir : /Users/kesavapraadeep/Desktop/gui-tdc-final/backend/jars
++ echo 'Java home : /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home'
+Java home : /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home
+++ java -version
++ echo 'Java version : java version "1.8.0_271"
+Java(TM) SE Runtime Environment (build 1.8.0_271-b09)
+Java HotSpot(TM) 64-Bit Server VM (build 25.271-b09, mixed mode)'
+Java version : java version "1.8.0_271"
+Java(TM) SE Runtime Environment (build 1.8.0_271-b09)
+Java HotSpot(TM) 64-Bit Server VM (build 25.271-b09, mixed mode)
++ echo 'Spark home : /Users/kesavapraadeep/Desktop/gui-tdc-final/backend/venv/lib/python3.13/site-packages/pyspark'
+Spark home : /Users/kesavapraadeep/Desktop/gui-tdc-final/backend/venv/lib/python3.13/site-packages/pyspark
+++ which python
++ echo 'Python path : /Users/kesavapraadeep/Desktop/gui-tdc-final/backend/venv/bin/python'
+Python path : /Users/kesavapraadeep/Desktop/gui-tdc-final/backend/venv/bin/python
+++ python -c 'import pyspark; print(pyspark.__version__)'
++ echo 'PySpark version : 4.0.0'
+PySpark version : 4.0.0
++ python -m pyspark.run --conf spark.driver.extraJavaOptions=-Dfile.encoding=UTF-8 --conf spark.executor.extraJavaOptions=-Dfile.encoding=UTF-8 --driver-java-options '-Xms1g -Xmx2g' --jars /Users/kesavapraadeep/Desktop/gui-tdc-final/backend/jars/terajdbc4.jar,/Users/kesavapraadeep/Desktop/gui-tdc-final/backend/jars/db2jcc4.jar /Users/kesavapraadeep/Desktop/gui-tdc-final/backend/data_validation/utils/validate_main.py /Users/kesavapraadeep/Desktop/gui-tdc-final/backend/data_validation/utils
+/Users/kesavapraadeep/Desktop/gui-tdc-final/backend/venv/bin/python: No module named pyspark.run

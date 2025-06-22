@@ -1,0 +1,42 @@
+
+Table: SOURCE_SCHEMA.EMPLOYEE
+Source Rows: 10
+Source Time: 12.62s
+Target Rows: 10
+Target Time: 11.10s
+Rows in Source not in Target: 1
+Rows in Target not in Source: 1
+Field Mismatches: 22025-06-19 00:46:25,916 - INFO - 127.0.0.1 - - [19/Jun/2025 00:46:25] "POST /api/run-validation HTTP/1.1" 200 -
+2025-06-19 00:56:24,324 - INFO - 127.0.0.1 - - [19/Jun/2025 00:56:24] "OPTIONS /api/validate HTTP/1.1" 200 -
+2025-06-19 00:56:25,221 - INFO - 127.0.0.1 - - [19/Jun/2025 00:56:25] "[35m[1mPOST /api/validate HTTP/1.1[0m" 500 -
+2025-06-19 00:56:32,546 - INFO - 127.0.0.1 - - [19/Jun/2025 00:56:32] "OPTIONS /api/validate HTTP/1.1" 200 -
+2025-06-19 00:56:35,882 - INFO - 127.0.0.1 - - [19/Jun/2025 00:56:35] "POST /api/validate HTTP/1.1" 200 -
+2025-06-19 00:56:35,907 - INFO - 127.0.0.1 - - [19/Jun/2025 00:56:35] "OPTIONS /api/schemas HTTP/1.1" 200 -
+2025-06-19 00:56:39,341 - INFO - 127.0.0.1 - - [19/Jun/2025 00:56:39] "POST /api/schemas HTTP/1.1" 200 -
+2025-06-19 00:57:01,841 - INFO - 127.0.0.1 - - [19/Jun/2025 00:57:01] "OPTIONS /api/validate HTTP/1.1" 200 -
+2025-06-19 00:57:04,148 - INFO - 127.0.0.1 - - [19/Jun/2025 00:57:04] "POST /api/validate HTTP/1.1" 200 -
+2025-06-19 00:57:04,169 - INFO - 127.0.0.1 - - [19/Jun/2025 00:57:04] "OPTIONS /api/schemas HTTP/1.1" 200 -
+2025-06-19 00:57:07,455 - INFO - 127.0.0.1 - - [19/Jun/2025 00:57:07] "POST /api/schemas HTTP/1.1" 200 -
+2025-06-19 00:57:13,215 - INFO - 127.0.0.1 - - [19/Jun/2025 00:57:13] "OPTIONS /api/tables HTTP/1.1" 200 -
+2025-06-19 00:57:17,554 - INFO - 127.0.0.1 - - [19/Jun/2025 00:57:17] "POST /api/tables HTTP/1.1" 200 -
+2025-06-19 00:57:20,835 - INFO - 127.0.0.1 - - [19/Jun/2025 00:57:20] "POST /api/tables HTTP/1.1" 200 -
+2025-06-19 00:57:27,738 - INFO - 127.0.0.1 - - [19/Jun/2025 00:57:27] "OPTIONS /api/columns HTTP/1.1" 200 -
+2025-06-19 00:57:32,099 - INFO - 127.0.0.1 - - [19/Jun/2025 00:57:32] "POST /api/columns HTTP/1.1" 200 -
+2025-06-19 00:57:42,079 - INFO - 127.0.0.1 - - [19/Jun/2025 00:57:42] "OPTIONS /api/run-validation HTTP/1.1" 200 -
+2025-06-19 00:59:33,663 - INFO - 127.0.0.1 - - [19/Jun/2025 00:59:33] "POST /api/run-validation HTTP/1.1" 200 -
+2025-06-19 00:59:50,069 - INFO - 127.0.0.1 - - [19/Jun/2025 00:59:50] "GET /api/formatted-validation-report HTTP/1.1" 200 -
+2025-06-19 00:59:50,079 - INFO - 127.0.0.1 - - [19/Jun/2025 00:59:50] "GET /api/report HTTP/1.1" 200 -
+2025-06-19 00:59:50,488 - INFO - 127.0.0.1 - - [19/Jun/2025 00:59:50] "GET /api/formatted-validation-report HTTP/1.1" 200 -
+2025-06-19 00:59:50,500 - INFO - 127.0.0.1 - - [19/Jun/2025 00:59:50] "GET /api/report HTTP/1.1" 200 -
+2025-06-19 00:59:50,708 - INFO - 127.0.0.1 - - [19/Jun/2025 00:59:50] "GET /api/formatted-validation-report HTTP/1.1" 200 -
+2025-06-19 00:59:50,722 - INFO - 127.0.0.1 - - [19/Jun/2025 00:59:50] "GET /api/report HTTP/1.1" 200 -
+2025-06-19 00:59:50,901 - INFO - 127.0.0.1 - - [19/Jun/2025 00:59:50] "GET /api/formatted-validation-report HTTP/1.1" 200 -
+2025-06-19 00:59:50,913 - INFO - 127.0.0.1 - - [19/Jun/2025 00:59:50] "GET /api/report HTTP/1.1" 200 -
+2025-06-19 00:59:51,084 - INFO - 127.0.0.1 - - [19/Jun/2025 00:59:51] "GET /api/formatted-validation-report HTTP/1.1" 200 -
+2025-06-19 00:59:51,096 - INFO - 127.0.0.1 - - [19/Jun/2025 00:59:51] "GET /api/report HTTP/1.1" 200 -
+2025-06-19 00:59:51,285 - INFO - 127.0.0.1 - - [19/Jun/2025 00:59:51] "GET /api/formatted-validation-report HTTP/1.1" 200 -
+2025-06-19 00:59:51,297 - INFO - 127.0.0.1 - - [19/Jun/2025 00:59:51] "GET /api/report HTTP/1.1" 200 -
+2025-06-19 00:59:51,482 - INFO - 127.0.0.1 - - [19/Jun/2025 00:59:51] "GET /api/formatted-validation-report HTTP/1.1" 200 -
+2025-06-19 00:59:51,496 - INFO - 127.0.0.1 - - [19/Jun/2025 00:59:51] "GET /api/report HTTP/1.1" 200 -
+2025-06-19 00:59:51,666 - INFO - 127.0.0.1 - - [19/Jun/2025 00:59:51] "GET /api/formatted-validation-report HTTP/1.1" 200 -
+2025-06-19 00:59:51,679 - INFO - 127.0.0.1 - - [19/Jun/2025 00:59:51] "GET /api/report HTTP/1.1" 200 -

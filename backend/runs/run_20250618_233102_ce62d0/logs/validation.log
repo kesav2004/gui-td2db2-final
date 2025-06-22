@@ -1,0 +1,19 @@
+
+Table: SOURCE_SCHEMA.EMPLOYEE
+Source Rows: 10
+Source Time: 12.46s
+Target Rows: 10
+Target Time: 10.83s
+Rows in Source not in Target: 0
+Rows in Target not in Source: 0
+Field Mismatches: 0
+
+Table: TARGET_SCHEMA.EMPLOYEE
+Source Rows: 10
+Source Time: 10.93s
+Target Rows: 10
+Target Time: 11.43s
+Rows in Source not in Target: 0
+Rows in Target not in Source: 0
+Field Mismatches: 02025-06-18 23:33:13,555 - INFO - 127.0.0.1 - - [18/Jun/2025 23:33:13] "POST /api/run-validation HTTP/1.1" 200 -
+2025-06-18 23:36:18,226 - INFO -  * Detected change in '/Users/kesavapraadeep/Desktop/gui-tdc-final/backend/data_validation/utils/validate_main.py', reloading

@@ -1,0 +1,13 @@
+Table: SAMPLE_TABLE_1
+Source Rows: 1000
+Target Rows: 995
+Rows in Source not in Target: 3
+Rows in Target not in Source: 1
+Field Mismatches: 1
+
+Table: SAMPLE_TABLE_2
+Source Rows: 500
+Target Rows: 500
+Rows in Source not in Target: 0
+Rows in Target not in Source: 0
+Field Mismatches: 0

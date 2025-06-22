@@ -1,0 +1,55 @@
+++ date '+%Y/%m/%d %H:%M:%S'
++ echo 'Job started @ 2025/06/17 13:12:33'
+Job started @ 2025/06/17 13:12:33
++ echo ''
+
++ echo 'Project root : /Users/kesavapraadeep/Desktop/gui-tdc-final'
+Project root : /Users/kesavapraadeep/Desktop/gui-tdc-final
++ echo 'Backend dir : /Users/kesavapraadeep/Desktop/gui-tdc-final/backend'
+Backend dir : /Users/kesavapraadeep/Desktop/gui-tdc-final/backend
++ echo 'Current dir : /Users/kesavapraadeep/Desktop/gui-tdc-final/backend/runs/run_20250617_125704_1216e8'
+Current dir : /Users/kesavapraadeep/Desktop/gui-tdc-final/backend/runs/run_20250617_125704_1216e8
++ echo 'Script dir : /Users/kesavapraadeep/Desktop/gui-tdc-final/backend/data_validation/utils'
+Script dir : /Users/kesavapraadeep/Desktop/gui-tdc-final/backend/data_validation/utils
++ echo 'Virtual env : /Users/kesavapraadeep/Desktop/gui-tdc-final/backend/venv'
+Virtual env : /Users/kesavapraadeep/Desktop/gui-tdc-final/backend/venv
++ echo 'JAR dir : /Users/kesavapraadeep/Desktop/gui-tdc-final/backend/jars'
+JAR dir : /Users/kesavapraadeep/Desktop/gui-tdc-final/backend/jars
++ echo 'Java home : /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home'
+Java home : /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home
+++ java -version
++ echo 'Java version : java version "1.8.0_271"
+Java(TM) SE Runtime Environment (build 1.8.0_271-b09)
+Java HotSpot(TM) 64-Bit Server VM (build 25.271-b09, mixed mode)'
+Java version : java version "1.8.0_271"
+Java(TM) SE Runtime Environment (build 1.8.0_271-b09)
+Java HotSpot(TM) 64-Bit Server VM (build 25.271-b09, mixed mode)
++ echo 'Spark home : /Users/kesavapraadeep/Desktop/gui-tdc-final/backend/venv/lib/python3.13/site-packages/pyspark'
+Spark home : /Users/kesavapraadeep/Desktop/gui-tdc-final/backend/venv/lib/python3.13/site-packages/pyspark
+++ which python
++ echo 'Python path : /Users/kesavapraadeep/Desktop/gui-tdc-final/backend/venv/bin/python'
+Python path : /Users/kesavapraadeep/Desktop/gui-tdc-final/backend/venv/bin/python
+++ python -c 'import pyspark; print(pyspark.__version__)'
++ echo 'PySpark version : 4.0.0'
+PySpark version : 4.0.0
++ command -v spark-submit
++ echo 'Using spark-submit to run validation...'
+Using spark-submit to run validation...
++ spark-submit --conf spark.driver.extraJavaOptions=-Dfile.encoding=UTF-8 --conf spark.executor.extraJavaOptions=-Dfile.encoding=UTF-8 --driver-java-options '-Xms1g -Xmx2g' --jars /Users/kesavapraadeep/Desktop/gui-tdc-final/backend/jars/terajdbc4.jar,/Users/kesavapraadeep/Desktop/gui-tdc-final/backend/jars/db2jcc4.jar /Users/kesavapraadeep/Desktop/gui-tdc-final/backend/data_validation/utils/validate_main.py /Users/kesavapraadeep/Desktop/gui-tdc-final/backend/runs/run_20250617_125704_1216e8
+Error: A JNI error has occurred, please check your installation and try again
+Exception in thread "main" java.lang.UnsupportedClassVersionError: org/apache/spark/launcher/Main has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:756)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:468)
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:74)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:369)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:363)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:362)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	at sun.launcher.LauncherHelper.checkAndLoadMain(LauncherHelper.java:601)
+/Users/kesavapraadeep/Desktop/gui-tdc-final/backend/venv/lib/python3.13/site-packages/pyspark/bin/spark-class: line 97: CMD: bad array subscript
+head: illegal line count -- -1

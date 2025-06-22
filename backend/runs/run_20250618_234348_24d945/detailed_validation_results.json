@@ -1,0 +1,26 @@
+{
+  "tables": {
+    "SOURCE_SCHEMA.EMPLOYEE": {
+      "source_table": "SOURCE_SCHEMA.EMPLOYEE",
+      "target_table": "TARGET_SCHEMA.EMPLOYEE",
+      "source_rows": 10,
+      "target_rows": 10,
+      "source_time": 13.39588713645935,
+      "target_time": 11.38490891456604,
+      "differences": {
+        "source_not_in_target": [],
+        "target_not_in_source": [],
+        "field_mismatches": [],
+        "source_not_in_target_count": 0,
+        "target_not_in_source_count": 0,
+        "field_mismatches_count": 0
+      }
+    }
+  },
+  "summary": {
+    "total_tables": 1,
+    "tables_with_differences": 0,
+    "start_time": "2025-06-18T23:44:00.502961",
+    "end_time": "2025-06-18T23:44:49.051918"
+  }
+}

@@ -1,0 +1,18 @@
+{
+    "EMPLOYEE": {
+        "_keys_": [],
+        "_user_": "TARGET_SCHEMA",
+        "_columns_": [
+            "EMPNO",
+            "EDLEVEL",
+            "BIRTHDATE",
+            "BONUS"
+        ],
+        "_coltype_": {
+            "EMPNO": "CHARACTER",
+            "EDLEVEL": "SMALLINT",
+            "BIRTHDATE": "DATE",
+            "BONUS": "DECIMAL"
+        }
+    }
+}

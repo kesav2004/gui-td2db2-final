@@ -1,0 +1,42 @@
+{
+  "tables": {
+    "SOURCE_SCHEMA.EMPLOYEE": {
+      "source_table": "SOURCE_SCHEMA.EMPLOYEE",
+      "target_table": "SOURCE_SCHEMA.EMPLOYEE",
+      "source_rows": 10,
+      "target_rows": 10,
+      "source_time": 12.464571237564087,
+      "target_time": 10.832844972610474,
+      "differences": {
+        "source_not_in_target": [],
+        "target_not_in_source": [],
+        "field_mismatches": [],
+        "source_not_in_target_count": 0,
+        "target_not_in_source_count": 0,
+        "field_mismatches_count": 0
+      }
+    },
+    "TARGET_SCHEMA.EMPLOYEE": {
+      "source_table": "TARGET_SCHEMA.EMPLOYEE",
+      "target_table": "TARGET_SCHEMA.EMPLOYEE",
+      "source_rows": 10,
+      "target_rows": 10,
+      "source_time": 10.930540084838867,
+      "target_time": 11.428544998168945,
+      "differences": {
+        "source_not_in_target": [],
+        "target_not_in_source": [],
+        "field_mismatches": [],
+        "source_not_in_target_count": 0,
+        "target_not_in_source_count": 0,
+        "field_mismatches_count": 0
+      }
+    }
+  },
+  "summary": {
+    "total_tables": 2,
+    "tables_with_differences": 0,
+    "start_time": "2025-06-18T23:31:19.203082",
+    "end_time": "2025-06-18T23:33:13.026185"
+  }
+}

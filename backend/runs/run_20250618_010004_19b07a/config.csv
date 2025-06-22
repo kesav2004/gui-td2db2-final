@@ -1,0 +1,3 @@
+table,Keys,predicate,exclude_fields,include_fields,groupby_fields
+DB2INST1.EMPLOYEE,EMPNO,,,"EMPNO,COMM,EDLEVEL",
+DB2INST1.EMPLOYEE2,EMPNO,,,"EMPNO,COMM,EDLEVEL",

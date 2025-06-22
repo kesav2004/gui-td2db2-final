@@ -1,0 +1,76 @@
+{
+  "tables": {
+    "SOURCE_SCHEMA.EMPLOYEE": {
+      "source_table": "SOURCE_SCHEMA.EMPLOYEE",
+      "target_table": "TARGET_SCHEMA.EMPLOYEE",
+      "source_rows": 10,
+      "target_rows": 10,
+      "source_time": 13.313202857971191,
+      "target_time": 11.301533222198486,
+      "differences": {
+        "source_not_in_target": [
+          {
+            "EMPNO": "000060",
+            "FIRSTNME": "EVA",
+            "MIDINIT": "D",
+            "LASTNAME": "PULASKI",
+            "WORKDEPT": "D21",
+            "PHONENO": "7831",
+            "HIREDATE": "2003-09-30",
+            "JOB": "SALES   ",
+            "EDLEVEL": 16,
+            "SEX": "F",
+            "BIRTHDATE": "1973-05-26",
+            "SALARY": "96170.00",
+            "BONUS": "700.00",
+            "COMM": "2893.00"
+          }
+        ],
+        "target_not_in_source": [
+          {
+            "EMPNO": "000110",
+            "FIRSTNME": "JAMES",
+            "MIDINIT": "J",
+            "LASTNAME": "WILSON",
+            "WORKDEPT": "D11",
+            "PHONENO": "1124",
+            "HIREDATE": "2006-09-15",
+            "JOB": "SALES   ",
+            "EDLEVEL": 18,
+            "SEX": "M",
+            "BIRTHDATE": "1978-05-20",
+            "SALARY": "72400.00",
+            "BONUS": "400.00",
+            "COMM": "1560.00"
+          }
+        ],
+        "field_mismatches": [],
+        "source_not_in_target_count": 1,
+        "target_not_in_source_count": 1,
+        "field_mismatches_count": 2,
+        "showing_top_10_source": false,
+        "showing_top_10_target": false,
+        "showing_top_10_mismatches": false
+      },
+      "source_checksum": {
+        "checksum": "-3673385249",
+        "start_time": "2025-06-19-00.58.22",
+        "end_time": "2025-06-19-00.58.25",
+        "total_time": "0:00:3.390375"
+      },
+      "target_checksum": {
+        "checksum": "-1681368958",
+        "start_time": "2025-06-19-00.58.25",
+        "end_time": "2025-06-19-00.58.33",
+        "total_time": "0:00:8.130615"
+      },
+      "checksum_match": false
+    }
+  },
+  "summary": {
+    "total_tables": 1,
+    "tables_with_differences": 1,
+    "start_time": "2025-06-19T00:57:57.850383",
+    "end_time": "2025-06-19T00:59:33.217056"
+  }
+}

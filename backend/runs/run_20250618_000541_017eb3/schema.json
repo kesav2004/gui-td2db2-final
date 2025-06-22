@@ -1,0 +1,160 @@
+{
+  "source": {
+    "DB2INST1.EMPLOYEE": {
+      "fields": [
+        {
+          "name": "EMPNO",
+          "type": "StringType()",
+          "nullable": true
+        },
+        {
+          "name": "FIRSTNME",
+          "type": "StringType()",
+          "nullable": true
+        },
+        {
+          "name": "MIDINIT",
+          "type": "StringType()",
+          "nullable": true
+        },
+        {
+          "name": "LASTNAME",
+          "type": "StringType()",
+          "nullable": true
+        },
+        {
+          "name": "WORKDEPT",
+          "type": "StringType()",
+          "nullable": true
+        },
+        {
+          "name": "PHONENO",
+          "type": "StringType()",
+          "nullable": true
+        },
+        {
+          "name": "HIREDATE",
+          "type": "DateType()",
+          "nullable": true
+        },
+        {
+          "name": "JOB",
+          "type": "StringType()",
+          "nullable": true
+        },
+        {
+          "name": "EDLEVEL",
+          "type": "IntegerType()",
+          "nullable": true
+        },
+        {
+          "name": "SEX",
+          "type": "StringType()",
+          "nullable": true
+        },
+        {
+          "name": "BIRTHDATE",
+          "type": "DateType()",
+          "nullable": true
+        },
+        {
+          "name": "SALARY",
+          "type": "DecimalType(9,2)",
+          "nullable": true
+        },
+        {
+          "name": "BONUS",
+          "type": "DecimalType(9,2)",
+          "nullable": true
+        },
+        {
+          "name": "COMM",
+          "type": "DecimalType(9,2)",
+          "nullable": true
+        }
+      ],
+      "row_count": 42,
+      "checksum": "-7400179797882204214",
+      "time_taken": 12.990140199661255
+    }
+  },
+  "target": {
+    "DB2INST1.EMPLOYEE2": {
+      "fields": [
+        {
+          "name": "EMPNO",
+          "type": "StringType()",
+          "nullable": true
+        },
+        {
+          "name": "FIRSTNME",
+          "type": "StringType()",
+          "nullable": true
+        },
+        {
+          "name": "MIDINIT",
+          "type": "StringType()",
+          "nullable": true
+        },
+        {
+          "name": "LASTNAME",
+          "type": "StringType()",
+          "nullable": true
+        },
+        {
+          "name": "WORKDEPT",
+          "type": "StringType()",
+          "nullable": true
+        },
+        {
+          "name": "PHONENO",
+          "type": "StringType()",
+          "nullable": true
+        },
+        {
+          "name": "HIREDATE",
+          "type": "DateType()",
+          "nullable": true
+        },
+        {
+          "name": "JOB",
+          "type": "StringType()",
+          "nullable": true
+        },
+        {
+          "name": "EDLEVEL",
+          "type": "IntegerType()",
+          "nullable": true
+        },
+        {
+          "name": "SEX",
+          "type": "StringType()",
+          "nullable": true
+        },
+        {
+          "name": "BIRTHDATE",
+          "type": "DateType()",
+          "nullable": true
+        },
+        {
+          "name": "SALARY",
+          "type": "DecimalType(9,2)",
+          "nullable": true
+        },
+        {
+          "name": "BONUS",
+          "type": "DecimalType(9,2)",
+          "nullable": true
+        },
+        {
+          "name": "COMM",
+          "type": "DecimalType(9,2)",
+          "nullable": true
+        }
+      ],
+      "row_count": 1000042,
+      "checksum": "-7400179797882204214",
+      "time_taken": 74.77973198890686
+    }
+  }
+}

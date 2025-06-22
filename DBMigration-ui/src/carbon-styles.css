@@ -1,0 +1,156 @@
+
+/* IBM Carbon Design System Theming */
+:root {
+  /* Carbon Color Tokens - Core */
+  --carbon-blue: #0f62fe;
+  --carbon-blue-hover: #0353e9;
+  --carbon-blue-active: #002d9c;
+  --carbon-blue-10: #edf5ff;
+  --carbon-blue-20: #d0e2ff;
+  --carbon-blue-30: #a6c8ff;
+  --carbon-blue-40: #78a9ff;
+  --carbon-blue-50: #4589ff;
+  --carbon-blue-60: #0f62fe;
+  --carbon-blue-70: #0043ce;
+  --carbon-blue-80: #002d9c;
+  --carbon-blue-90: #001d6c;
+  --carbon-blue-100: #001141;
+
+  /* Carbon Gray Palette */
+  --carbon-gray-10: #f4f4f4;
+  --carbon-gray-20: #e0e0e0;
+  --carbon-gray-30: #c6c6c6;
+  --carbon-gray-40: #a8a8a8;
+  --carbon-gray-50: #8d8d8d;
+  --carbon-gray-60: #6f6f6f;
+  --carbon-gray-70: #525252;
+  --carbon-gray-80: #393939;
+  --carbon-gray-90: #262626;
+  --carbon-gray-100: #161616;
+
+  /* Carbon Status Colors */
+  --carbon-success: #24a148;
+  --carbon-warning: #f1c21b;
+  --carbon-error: #da1e28;
+  
+  /* Carbon UI Elements */
+  --carbon-border-subtle: var(--carbon-gray-20);
+  --carbon-field-background: #ffffff;
+  --carbon-field-hover: #e8e8e8;
+  --carbon-interactive: var(--carbon-blue-60);
+}
+
+/* Carbon Typography Styles */
+body {
+  font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  color: var(--carbon-gray-100);
+  background-color: #f4f4f4;
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 400;
+}
+
+/* Carbon Button Styles */
+.carbon-button-primary {
+  background-color: var(--carbon-blue);
+  color: white;
+  border: none;
+  font-size: 0.875rem;
+  font-weight: 400;
+  min-height: 2.5rem;
+  padding: 0 1rem;
+  transition: all 70ms cubic-bezier(0, 0, 0.38, 0.9);
+}
+
+.carbon-button-primary:hover {
+  background-color: var(--carbon-blue-hover);
+}
+
+.carbon-button-primary:active {
+  background-color: var(--carbon-blue-active);
+}
+
+.carbon-button-secondary {
+  background-color: transparent;
+  color: var(--carbon-blue);
+  border: 1px solid var(--carbon-blue);
+  font-size: 0.875rem;
+  font-weight: 400;
+  min-height: 2.5rem;
+  padding: 0 1rem;
+  transition: all 70ms cubic-bezier(0, 0, 0.38, 0.9);
+}
+
+.carbon-button-secondary:hover {
+  background-color: var(--carbon-blue-10);
+}
+
+.carbon-field {
+  background-color: var(--carbon-field-background);
+  border: 1px solid var(--carbon-gray-30);
+  height: 2.5rem;
+  padding: 0 1rem;
+  width: 100%;
+  font-size: 0.875rem;
+}
+
+.carbon-field:focus {
+  outline: 2px solid var(--carbon-blue);
+  outline-offset: -2px;
+}
+
+.carbon-label {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: var(--carbon-gray-70);
+  margin-bottom: 0.5rem;
+  display: inline-block;
+}
+
+/* Carbon Table Styles */
+.carbon-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.carbon-table-header {
+  text-align: left;
+  padding: 1rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--carbon-gray-70);
+  background-color: var(--carbon-gray-10);
+  border-bottom: 1px solid var(--carbon-gray-20);
+}
+
+.carbon-table-cell {
+  padding: 1rem;
+  font-size: 0.875rem;
+  border-bottom: 1px solid var(--carbon-gray-20);
+}
+
+/* Carbon Tabs Styles */
+.carbon-tabs {
+  display: flex;
+  border-bottom: 1px solid var(--carbon-gray-20);
+}
+
+.carbon-tab-selected {
+  color: var(--carbon-blue);
+  border-bottom: 2px solid var(--carbon-blue);
+  font-weight: 400;
+  padding: 0.5rem 1rem;
+}
+
+.carbon-tab-unselected {
+  color: var(--carbon-gray-70);
+  padding: 0.5rem 1rem;
+  border-bottom: 2px solid transparent;
+}
+
+.carbon-tab-unselected:hover {
+  color: var(--carbon-gray-100);
+}

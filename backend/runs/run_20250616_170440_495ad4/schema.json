@@ -1,0 +1,38 @@
+{
+    "EMPLOYEE2": {
+        "_keys_": [],
+        "_user_": "DB2INST1",
+        "_columns_": [
+            "EMPNO",
+            "FIRSTNME",
+            "MIDINIT",
+            "LASTNAME",
+            "WORKDEPT",
+            "PHONENO",
+            "HIREDATE",
+            "JOB",
+            "EDLEVEL",
+            "SEX",
+            "BIRTHDATE",
+            "SALARY",
+            "BONUS",
+            "COMM"
+        ],
+        "_coltype_": {
+            "EMPNO": "CHARACTER",
+            "FIRSTNME": "VARCHAR",
+            "MIDINIT": "CHARACTER",
+            "LASTNAME": "VARCHAR",
+            "WORKDEPT": "CHARACTER",
+            "PHONENO": "CHARACTER",
+            "HIREDATE": "DATE",
+            "JOB": "CHARACTER",
+            "EDLEVEL": "SMALLINT",
+            "SEX": "CHARACTER",
+            "BIRTHDATE": "DATE",
+            "SALARY": "DECIMAL",
+            "BONUS": "DECIMAL",
+            "COMM": "DECIMAL"
+        }
+    }
+}

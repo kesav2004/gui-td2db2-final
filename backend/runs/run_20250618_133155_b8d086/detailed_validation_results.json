@@ -1,0 +1,1370 @@
+{
+  "tables": {
+    "DB2INST1.ACT": {
+      "source_table": "DB2INST1.ACT",
+      "target_table": "DB2INST1.ACT",
+      "source_rows": 18,
+      "target_rows": 18,
+      "source_time": 9.120080947875977,
+      "target_time": 9.225764036178589,
+      "differences": {
+        "source_not_in_target": [],
+        "target_not_in_source": [],
+        "field_mismatches": [],
+        "source_not_in_target_count": 0,
+        "target_not_in_source_count": 0,
+        "field_mismatches_count": 0
+      }
+    },
+    "DB2INST1.ADEFUSR": {
+      "source_table": "DB2INST1.ADEFUSR",
+      "target_table": "DB2INST1.ADEFUSR",
+      "source_rows": 8,
+      "target_rows": 8,
+      "source_time": 9.787755012512207,
+      "target_time": 9.307706117630005,
+      "differences": {
+        "source_not_in_target": [],
+        "target_not_in_source": [],
+        "field_mismatches": [],
+        "source_not_in_target_count": 0,
+        "target_not_in_source_count": 0,
+        "field_mismatches_count": 0
+      }
+    },
+    "DB2INST1.CATALOG": {
+      "source_table": "DB2INST1.CATALOG",
+      "target_table": "DB2INST1.CATALOG",
+      "source_rows": 0,
+      "target_rows": 0,
+      "source_time": 9.307522058486938,
+      "target_time": 9.288291931152344,
+      "differences": {
+        "source_not_in_target": [],
+        "target_not_in_source": [],
+        "field_mismatches": [],
+        "source_not_in_target_count": 0,
+        "target_not_in_source_count": 0,
+        "field_mismatches_count": 0
+      }
+    },
+    "DB2INST1.CL_SCHED": {
+      "source_table": "DB2INST1.CL_SCHED",
+      "target_table": "DB2INST1.CL_SCHED",
+      "source_rows": 5,
+      "target_rows": 5,
+      "source_time": 9.12762713432312,
+      "target_time": 9.25815200805664,
+      "differences": {
+        "source_not_in_target": [],
+        "target_not_in_source": [],
+        "field_mismatches": [],
+        "source_not_in_target_count": 0,
+        "target_not_in_source_count": 0,
+        "field_mismatches_count": 0
+      }
+    },
+    "DB2INST1.CUSTOMER": {
+      "source_table": "DB2INST1.CUSTOMER",
+      "target_table": "DB2INST1.CUSTOMER",
+      "source_rows": 6,
+      "target_rows": 6,
+      "source_time": 9.221569776535034,
+      "target_time": 9.283025026321411,
+      "differences": {
+        "source_not_in_target": [],
+        "target_not_in_source": [],
+        "field_mismatches": [],
+        "source_not_in_target_count": 0,
+        "target_not_in_source_count": 0,
+        "field_mismatches_count": 0
+      }
+    },
+    "DB2INST1.DEPARTMENT": {
+      "source_table": "DB2INST1.DEPARTMENT",
+      "target_table": "DB2INST1.DEPARTMENT",
+      "source_rows": 14,
+      "target_rows": 14,
+      "source_time": 3.8480823040008545,
+      "target_time": 8.88427186012268,
+      "differences": {
+        "source_not_in_target": [],
+        "target_not_in_source": [],
+        "field_mismatches": [],
+        "source_not_in_target_count": 0,
+        "target_not_in_source_count": 0,
+        "field_mismatches_count": 0
+      }
+    },
+    "DB2INST1.DEPT": {
+      "source_table": "DB2INST1.DEPT",
+      "target_table": "DB2INST1.DEPT",
+      "source_rows": 14,
+      "target_rows": 14,
+      "source_time": 4.183324813842773,
+      "target_time": 9.01305603981018,
+      "differences": {
+        "source_not_in_target": [],
+        "target_not_in_source": [],
+        "field_mismatches": [],
+        "source_not_in_target_count": 0,
+        "target_not_in_source_count": 0,
+        "field_mismatches_count": 0
+      }
+    },
+    "DB2INST1.EMP": {
+      "source_table": "DB2INST1.EMP",
+      "target_table": "DB2INST1.EMP",
+      "source_rows": 42,
+      "target_rows": 42,
+      "source_time": 4.292818069458008,
+      "target_time": 9.012763023376465,
+      "differences": {
+        "source_not_in_target": [],
+        "target_not_in_source": [],
+        "field_mismatches": [],
+        "source_not_in_target_count": 0,
+        "target_not_in_source_count": 0,
+        "field_mismatches_count": 0
+      }
+    },
+    "DB2INST1.EMPACT": {
+      "source_table": "DB2INST1.EMPACT",
+      "target_table": "DB2INST1.EMPACT",
+      "source_rows": 73,
+      "target_rows": 73,
+      "source_time": 4.0822930335998535,
+      "target_time": 9.129571199417114,
+      "differences": {
+        "source_not_in_target": [],
+        "target_not_in_source": [],
+        "field_mismatches": [],
+        "source_not_in_target_count": 0,
+        "target_not_in_source_count": 0,
+        "field_mismatches_count": 0
+      }
+    },
+    "DB2INST1.EMPLOYEE": {
+      "source_table": "DB2INST1.EMPLOYEE",
+      "target_table": "DB2INST1.EMPLOYEE",
+      "source_rows": 42,
+      "target_rows": 42,
+      "source_time": 9.170080661773682,
+      "target_time": 3.9556071758270264,
+      "differences": {
+        "source_not_in_target": [],
+        "target_not_in_source": [],
+        "field_mismatches": [],
+        "source_not_in_target_count": 0,
+        "target_not_in_source_count": 0,
+        "field_mismatches_count": 0
+      }
+    },
+    "DB2INST1.EMPLOYEE2": {
+      "source_table": "DB2INST1.EMPLOYEE2",
+      "target_table": "DB2INST1.EMPLOYEE2",
+      "source_rows": 1000,
+      "target_rows": 1000,
+      "source_time": 9.214648962020874,
+      "target_time": 4.398703098297119,
+      "differences": {
+        "source_not_in_target": [
+          {
+            "EMPNO": "E1674320",
+            "FIRSTNME": "Richard",
+            "MIDINIT": "F",
+            "LASTNAME": "Sawyer",
+            "WORKDEPT": "MKT",
+            "PHONENO": "0517",
+            "HIREDATE": "2002-06-12",
+            "JOB": "Clerk   ",
+            "EDLEVEL": 13,
+            "SEX": "M",
+            "BIRTHDATE": "1977-10-15",
+            "SALARY": "43212.95",
+            "BONUS": "9119.60",
+            "COMM": "1070.84",
+            "row_hash": -25425233
+          },
+          {
+            "EMPNO": "E1674321",
+            "FIRSTNME": "Roberto",
+            "MIDINIT": "X",
+            "LASTNAME": "Hart",
+            "WORKDEPT": "HR ",
+            "PHONENO": "6778",
+            "HIREDATE": "2002-03-04",
+            "JOB": "HR      ",
+            "EDLEVEL": 10,
+            "SEX": null,
+            "BIRTHDATE": "1975-07-31",
+            "SALARY": "103949.66",
+            "BONUS": "5719.15",
+            "COMM": "3424.08",
+            "row_hash": 1697808267
+          },
+          {
+            "EMPNO": "E1674322",
+            "FIRSTNME": "Johnny",
+            "MIDINIT": "D",
+            "LASTNAME": "Marsh",
+            "WORKDEPT": "SAL",
+            "PHONENO": "0814",
+            "HIREDATE": "2016-09-10",
+            "JOB": "Develope",
+            "EDLEVEL": 16,
+            "SEX": "M",
+            "BIRTHDATE": "1981-01-31",
+            "SALARY": "91685.30",
+            "BONUS": "0.00",
+            "COMM": "4145.47",
+            "row_hash": 392296984
+          },
+          {
+            "EMPNO": "E1674323",
+            "FIRSTNME": "Penny",
+            "MIDINIT": null,
+            "LASTNAME": "Mitchell",
+            "WORKDEPT": "FIN",
+            "PHONENO": "9709",
+            "HIREDATE": "2015-06-25",
+            "JOB": "Develope",
+            "EDLEVEL": 16,
+            "SEX": "F",
+            "BIRTHDATE": "1983-10-21",
+            "SALARY": "32561.74",
+            "BONUS": "0.00",
+            "COMM": "1481.30",
+            "row_hash": 222540281
+          },
+          {
+            "EMPNO": "E1674324",
+            "FIRSTNME": "Jose",
+            "MIDINIT": "D",
+            "LASTNAME": "Weaver",
+            "WORKDEPT": "SAL",
+            "PHONENO": "7998",
+            "HIREDATE": "2001-06-09",
+            "JOB": "HR      ",
+            "EDLEVEL": 19,
+            "SEX": null,
+            "BIRTHDATE": "1975-09-04",
+            "SALARY": "47855.77",
+            "BONUS": "3133.77",
+            "COMM": "0.00",
+            "row_hash": 880581859
+          },
+          {
+            "EMPNO": "E1674325",
+            "FIRSTNME": "Randy",
+            "MIDINIT": "F",
+            "LASTNAME": "Moore",
+            "WORKDEPT": "MKT",
+            "PHONENO": "6390",
+            "HIREDATE": "2001-06-17",
+            "JOB": "Analyst ",
+            "EDLEVEL": 11,
+            "SEX": "M",
+            "BIRTHDATE": "1973-03-16",
+            "SALARY": "93303.47",
+            "BONUS": "3822.32",
+            "COMM": "2685.60",
+            "row_hash": 530913530
+          },
+          {
+            "EMPNO": "E1674326",
+            "FIRSTNME": "Christopher",
+            "MIDINIT": "Y",
+            "LASTNAME": "Keith",
+            "WORKDEPT": "HR ",
+            "PHONENO": "4908",
+            "HIREDATE": "2015-07-23",
+            "JOB": "Analyst ",
+            "EDLEVEL": 11,
+            "SEX": "M",
+            "BIRTHDATE": "1974-06-23",
+            "SALARY": "76100.44",
+            "BONUS": "4342.77",
+            "COMM": "4809.01",
+            "row_hash": -1645221423
+          },
+          {
+            "EMPNO": "E1674327",
+            "FIRSTNME": "Randall",
+            "MIDINIT": "B",
+            "LASTNAME": "Morris",
+            "WORKDEPT": "OPS",
+            "PHONENO": "1323",
+            "HIREDATE": "2007-07-02",
+            "JOB": "Clerk   ",
+            "EDLEVEL": 19,
+            "SEX": "F",
+            "BIRTHDATE": "2000-02-06",
+            "SALARY": "102366.48",
+            "BONUS": "9594.33",
+            "COMM": "2693.98",
+            "row_hash": -1352836447
+          },
+          {
+            "EMPNO": "E1674328",
+            "FIRSTNME": "Kimberly",
+            "MIDINIT": "U",
+            "LASTNAME": "Montes",
+            "WORKDEPT": "MKT",
+            "PHONENO": "8001",
+            "HIREDATE": "2006-10-13",
+            "JOB": "Develope",
+            "EDLEVEL": 20,
+            "SEX": "F",
+            "BIRTHDATE": "1995-07-16",
+            "SALARY": "37764.74",
+            "BONUS": "3461.85",
+            "COMM": "1119.98",
+            "row_hash": -1431895109
+          },
+          {
+            "EMPNO": "E1674329",
+            "FIRSTNME": "Thomas",
+            "MIDINIT": "S",
+            "LASTNAME": "Gomez",
+            "WORKDEPT": "OPS",
+            "PHONENO": "2327",
+            "HIREDATE": "2000-01-09",
+            "JOB": "Consulta",
+            "EDLEVEL": 13,
+            "SEX": "M",
+            "BIRTHDATE": "1988-03-23",
+            "SALARY": "71423.97",
+            "BONUS": "8554.69",
+            "COMM": "0.00",
+            "row_hash": -994832745
+          }
+        ],
+        "target_not_in_source": [
+          {
+            "EMPNO": "E1639846",
+            "FIRSTNME": "Christopher",
+            "MIDINIT": "P",
+            "LASTNAME": "Kim",
+            "WORKDEPT": "OPS",
+            "PHONENO": "0761",
+            "HIREDATE": "2025-03-26",
+            "JOB": "Manager ",
+            "EDLEVEL": 16,
+            "SEX": null,
+            "BIRTHDATE": "1989-05-30",
+            "SALARY": "98367.83",
+            "BONUS": "6019.91",
+            "COMM": "0.00",
+            "row_hash": -629663934
+          },
+          {
+            "EMPNO": "E1639847",
+            "FIRSTNME": "Lisa",
+            "MIDINIT": "S",
+            "LASTNAME": "Warner",
+            "WORKDEPT": "IT ",
+            "PHONENO": "1260",
+            "HIREDATE": "1996-09-09",
+            "JOB": "Clerk   ",
+            "EDLEVEL": 19,
+            "SEX": "M",
+            "BIRTHDATE": "1972-10-28",
+            "SALARY": "42697.20",
+            "BONUS": "0.00",
+            "COMM": "0.00",
+            "row_hash": 2138036349
+          },
+          {
+            "EMPNO": "E1639848",
+            "FIRSTNME": "Ryan",
+            "MIDINIT": "G",
+            "LASTNAME": "Walker",
+            "WORKDEPT": "SAL",
+            "PHONENO": "8478",
+            "HIREDATE": "2014-01-25",
+            "JOB": "Manager ",
+            "EDLEVEL": 15,
+            "SEX": null,
+            "BIRTHDATE": "1982-03-05",
+            "SALARY": "96900.14",
+            "BONUS": "9317.93",
+            "COMM": "4585.16",
+            "row_hash": -1804590036
+          },
+          {
+            "EMPNO": "E1639849",
+            "FIRSTNME": "Michael",
+            "MIDINIT": "J",
+            "LASTNAME": "Chavez",
+            "WORKDEPT": "SAL",
+            "PHONENO": "3471",
+            "HIREDATE": "1997-05-05",
+            "JOB": "Develope",
+            "EDLEVEL": 10,
+            "SEX": "M",
+            "BIRTHDATE": "1965-10-07",
+            "SALARY": "125610.76",
+            "BONUS": "0.00",
+            "COMM": "3708.53",
+            "row_hash": 565784849
+          },
+          {
+            "EMPNO": "E1639850",
+            "FIRSTNME": "Christopher",
+            "MIDINIT": "W",
+            "LASTNAME": "Scott",
+            "WORKDEPT": "HR ",
+            "PHONENO": "0598",
+            "HIREDATE": "1995-06-29",
+            "JOB": "Develope",
+            "EDLEVEL": 12,
+            "SEX": "F",
+            "BIRTHDATE": "1990-11-15",
+            "SALARY": "114945.83",
+            "BONUS": "5232.61",
+            "COMM": "4872.34",
+            "row_hash": -2102698695
+          },
+          {
+            "EMPNO": "E1639851",
+            "FIRSTNME": "Jessica",
+            "MIDINIT": "T",
+            "LASTNAME": "Curry",
+            "WORKDEPT": "SAL",
+            "PHONENO": "0612",
+            "HIREDATE": "2021-01-10",
+            "JOB": "HR      ",
+            "EDLEVEL": 13,
+            "SEX": "F",
+            "BIRTHDATE": "2004-02-10",
+            "SALARY": "61226.22",
+            "BONUS": "3260.25",
+            "COMM": "1845.06",
+            "row_hash": 2001664964
+          },
+          {
+            "EMPNO": "E1639852",
+            "FIRSTNME": "Sandra",
+            "MIDINIT": "I",
+            "LASTNAME": "Gonzalez",
+            "WORKDEPT": "HR ",
+            "PHONENO": "1083",
+            "HIREDATE": "2004-07-28",
+            "JOB": "Manager ",
+            "EDLEVEL": 14,
+            "SEX": "M",
+            "BIRTHDATE": "1966-08-24",
+            "SALARY": "40042.96",
+            "BONUS": "2828.26",
+            "COMM": "3967.01",
+            "row_hash": 1072755762
+          },
+          {
+            "EMPNO": "E1639853",
+            "FIRSTNME": "Nathaniel",
+            "MIDINIT": "Q",
+            "LASTNAME": "Padilla",
+            "WORKDEPT": "OPS",
+            "PHONENO": "4033",
+            "HIREDATE": "2016-09-05",
+            "JOB": "Manager ",
+            "EDLEVEL": 16,
+            "SEX": "F",
+            "BIRTHDATE": "2005-01-28",
+            "SALARY": "82736.26",
+            "BONUS": "1188.73",
+            "COMM": "628.43",
+            "row_hash": 353144154
+          },
+          {
+            "EMPNO": "E1639854",
+            "FIRSTNME": "Emily",
+            "MIDINIT": "W",
+            "LASTNAME": "Miller",
+            "WORKDEPT": "FIN",
+            "PHONENO": "6860",
+            "HIREDATE": "2012-03-30",
+            "JOB": "HR      ",
+            "EDLEVEL": 15,
+            "SEX": "F",
+            "BIRTHDATE": "2000-06-16",
+            "SALARY": "79990.97",
+            "BONUS": "7517.18",
+            "COMM": "0.00",
+            "row_hash": 38388892
+          },
+          {
+            "EMPNO": "E1639855",
+            "FIRSTNME": "Thomas",
+            "MIDINIT": "M",
+            "LASTNAME": "Perry",
+            "WORKDEPT": "SAL",
+            "PHONENO": "4004",
+            "HIREDATE": "2022-04-30",
+            "JOB": "HR      ",
+            "EDLEVEL": 16,
+            "SEX": "M",
+            "BIRTHDATE": "1987-09-06",
+            "SALARY": "102043.57",
+            "BONUS": "0.00",
+            "COMM": "3535.83",
+            "row_hash": 1864697756
+          }
+        ],
+        "field_mismatches": [],
+        "source_not_in_target_count": 10,
+        "target_not_in_source_count": 10,
+        "field_mismatches_count": 0
+      }
+    },
+    "DB2INST1.EMPLOYEE3": {
+      "source_table": "DB2INST1.EMPLOYEE3",
+      "target_table": "DB2INST1.EMPLOYEE3",
+      "source_rows": 42,
+      "target_rows": 42,
+      "source_time": 9.219642162322998,
+      "target_time": 4.092559099197388,
+      "differences": {
+        "source_not_in_target": [],
+        "target_not_in_source": [],
+        "field_mismatches": [],
+        "source_not_in_target_count": 0,
+        "target_not_in_source_count": 0,
+        "field_mismatches_count": 0
+      }
+    },
+    "DB2INST1.EMPLOYEEPROJECTS": {
+      "source_table": "DB2INST1.EMPLOYEEPROJECTS",
+      "target_table": "DB2INST1.EMPLOYEEPROJECTS",
+      "source_rows": 5,
+      "target_rows": 5,
+      "source_time": 9.107232093811035,
+      "target_time": 4.41168475151062,
+      "differences": {
+        "source_not_in_target": [],
+        "target_not_in_source": [],
+        "field_mismatches": [],
+        "source_not_in_target_count": 0,
+        "target_not_in_source_count": 0,
+        "field_mismatches_count": 0
+      }
+    },
+    "DB2INST1.EMPMDC": {
+      "source_table": "DB2INST1.EMPMDC",
+      "target_table": "DB2INST1.EMPMDC",
+      "source_rows": 1000,
+      "target_rows": 1000,
+      "source_time": 9.623395919799805,
+      "target_time": 9.527519941329956,
+      "differences": {
+        "source_not_in_target": [],
+        "target_not_in_source": [],
+        "field_mismatches": [],
+        "source_not_in_target_count": 0,
+        "target_not_in_source_count": 0,
+        "field_mismatches_count": 0
+      }
+    },
+    "DB2INST1.EMPPROJACT": {
+      "source_table": "DB2INST1.EMPPROJACT",
+      "target_table": "DB2INST1.EMPPROJACT",
+      "source_rows": 73,
+      "target_rows": 73,
+      "source_time": 9.117502212524414,
+      "target_time": 9.312151193618774,
+      "differences": {
+        "source_not_in_target": [],
+        "target_not_in_source": [],
+        "field_mismatches": [],
+        "source_not_in_target_count": 0,
+        "target_not_in_source_count": 0,
+        "field_mismatches_count": 0
+      }
+    },
+    "DB2INST1.EMP_ACT": {
+      "source_table": "DB2INST1.EMP_ACT",
+      "target_table": "DB2INST1.EMP_ACT",
+      "source_rows": 73,
+      "target_rows": 73,
+      "source_time": 4.389987945556641,
+      "target_time": 9.102190971374512,
+      "differences": {
+        "source_not_in_target": [],
+        "target_not_in_source": [],
+        "field_mismatches": [],
+        "source_not_in_target_count": 0,
+        "target_not_in_source_count": 0,
+        "field_mismatches_count": 0
+      }
+    },
+    "DB2INST1.EMP_PHOTO": {
+      "source_table": "DB2INST1.EMP_PHOTO",
+      "target_table": "DB2INST1.EMP_PHOTO",
+      "source_rows": 8,
+      "target_rows": 8,
+      "source_time": 9.016074895858765,
+      "target_time": 4.005047082901001,
+      "differences": {
+        "source_not_in_target": [],
+        "target_not_in_source": [],
+        "field_mismatches": [],
+        "source_not_in_target_count": 0,
+        "target_not_in_source_count": 0,
+        "field_mismatches_count": 0
+      }
+    },
+    "DB2INST1.EMP_RESUME": {
+      "source_table": "DB2INST1.EMP_RESUME",
+      "target_table": "DB2INST1.EMP_RESUME",
+      "source_rows": 8,
+      "target_rows": 8,
+      "source_time": 9.111585140228271,
+      "target_time": 4.084372282028198,
+      "differences": {
+        "source_not_in_target": [],
+        "target_not_in_source": [],
+        "field_mismatches": [],
+        "source_not_in_target_count": 0,
+        "target_not_in_source_count": 0,
+        "field_mismatches_count": 0
+      }
+    },
+    "DB2INST1.INVENTORY": {
+      "source_table": "DB2INST1.INVENTORY",
+      "target_table": "DB2INST1.INVENTORY",
+      "source_rows": 4,
+      "target_rows": 4,
+      "source_time": 9.00629472732544,
+      "target_time": 8.944358110427856,
+      "differences": {
+        "source_not_in_target": [],
+        "target_not_in_source": [],
+        "field_mismatches": [],
+        "source_not_in_target_count": 0,
+        "target_not_in_source_count": 0,
+        "field_mismatches_count": 0
+      }
+    },
+    "DB2INST1.IN_TRAY": {
+      "source_table": "DB2INST1.IN_TRAY",
+      "target_table": "DB2INST1.IN_TRAY",
+      "source_rows": 3,
+      "target_rows": 3,
+      "source_time": 9.25678014755249,
+      "target_time": 9.080825805664062,
+      "differences": {
+        "source_not_in_target": [],
+        "target_not_in_source": [],
+        "field_mismatches": [],
+        "source_not_in_target_count": 0,
+        "target_not_in_source_count": 0,
+        "field_mismatches_count": 0
+      }
+    },
+    "DB2INST1.I_ASL_WAARDE1": {
+      "source_table": "DB2INST1.I_ASL_WAARDE1",
+      "target_table": "DB2INST1.I_ASL_WAARDE1",
+      "source_rows": 0,
+      "target_rows": 0,
+      "source_time": 4.039099216461182,
+      "target_time": 9.317818880081177,
+      "differences": {
+        "source_not_in_target": [],
+        "target_not_in_source": [],
+        "field_mismatches": [],
+        "source_not_in_target_count": 0,
+        "target_not_in_source_count": 0,
+        "field_mismatches_count": 0
+      }
+    },
+    "DB2INST1.JSON_TABLE": {
+      "source_table": "DB2INST1.JSON_TABLE",
+      "target_table": "DB2INST1.JSON_TABLE",
+      "source_rows": 1,
+      "target_rows": 1,
+      "source_time": 4.196241855621338,
+      "target_time": 8.902415752410889,
+      "differences": {
+        "source_not_in_target": [],
+        "target_not_in_source": [],
+        "field_mismatches": [],
+        "source_not_in_target_count": 0,
+        "target_not_in_source_count": 0,
+        "field_mismatches_count": 0
+      }
+    },
+    "DB2INST1.M": {
+      "source_table": "DB2INST1.M",
+      "target_table": "DB2INST1.M",
+      "source_rows": 0,
+      "target_rows": 0,
+      "source_time": 3.913032054901123,
+      "target_time": 9.177210092544556,
+      "differences": {
+        "source_not_in_target": [],
+        "target_not_in_source": [],
+        "field_mismatches": [],
+        "source_not_in_target_count": 0,
+        "target_not_in_source_count": 0,
+        "field_mismatches_count": 0
+      }
+    },
+    "DB2INST1.MYPARTITIONEDTABLE": {
+      "source_table": "DB2INST1.MYPARTITIONEDTABLE",
+      "target_table": "DB2INST1.MYPARTITIONEDTABLE",
+      "source_rows": 3,
+      "target_rows": 3,
+      "source_time": 4.209513902664185,
+      "target_time": 9.215616941452026,
+      "differences": {
+        "source_not_in_target": [],
+        "target_not_in_source": [],
+        "field_mismatches": [],
+        "source_not_in_target_count": 0,
+        "target_not_in_source_count": 0,
+        "field_mismatches_count": 0
+      }
+    },
+    "DB2INST1.N": {
+      "source_table": "DB2INST1.N",
+      "target_table": "DB2INST1.N",
+      "source_rows": 0,
+      "target_rows": 0,
+      "source_time": 8.97668194770813,
+      "target_time": 4.131433963775635,
+      "differences": {
+        "source_not_in_target": [],
+        "target_not_in_source": [],
+        "field_mismatches": [],
+        "source_not_in_target_count": 0,
+        "target_not_in_source_count": 0,
+        "field_mismatches_count": 0
+      }
+    },
+    "DB2INST1.ORG": {
+      "source_table": "DB2INST1.ORG",
+      "target_table": "DB2INST1.ORG",
+      "source_rows": 8,
+      "target_rows": 8,
+      "source_time": 9.106212854385376,
+      "target_time": 4.00823712348938,
+      "differences": {
+        "source_not_in_target": [],
+        "target_not_in_source": [],
+        "field_mismatches": [],
+        "source_not_in_target_count": 0,
+        "target_not_in_source_count": 0,
+        "field_mismatches_count": 0
+      }
+    },
+    "DB2INST1.PRODUCT": {
+      "source_table": "DB2INST1.PRODUCT",
+      "target_table": "DB2INST1.PRODUCT",
+      "source_rows": 4,
+      "target_rows": 4,
+      "source_time": 9.11917495727539,
+      "target_time": 4.198186874389648,
+      "differences": {
+        "source_not_in_target": [],
+        "target_not_in_source": [],
+        "field_mismatches": [],
+        "source_not_in_target_count": 0,
+        "target_not_in_source_count": 0,
+        "field_mismatches_count": 0
+      }
+    },
+    "DB2INST1.PRODUCTSUPPLIER": {
+      "source_table": "DB2INST1.PRODUCTSUPPLIER",
+      "target_table": "DB2INST1.PRODUCTSUPPLIER",
+      "source_rows": 2,
+      "target_rows": 2,
+      "source_time": 9.194212198257446,
+      "target_time": 4.2009031772613525,
+      "differences": {
+        "source_not_in_target": [],
+        "target_not_in_source": [],
+        "field_mismatches": [],
+        "source_not_in_target_count": 0,
+        "target_not_in_source_count": 0,
+        "field_mismatches_count": 0
+      }
+    },
+    "DB2INST1.PROJ": {
+      "source_table": "DB2INST1.PROJ",
+      "target_table": "DB2INST1.PROJ",
+      "source_rows": 20,
+      "target_rows": 20,
+      "source_time": 9.167297840118408,
+      "target_time": 4.013966798782349,
+      "differences": {
+        "source_not_in_target": [],
+        "target_not_in_source": [],
+        "field_mismatches": [],
+        "source_not_in_target_count": 0,
+        "target_not_in_source_count": 0,
+        "field_mismatches_count": 0
+      }
+    },
+    "DB2INST1.PROJACT": {
+      "source_table": "DB2INST1.PROJACT",
+      "target_table": "DB2INST1.PROJACT",
+      "source_rows": 65,
+      "target_rows": 65,
+      "source_time": 9.022937774658203,
+      "target_time": 4.087338924407959,
+      "differences": {
+        "source_not_in_target": [],
+        "target_not_in_source": [],
+        "field_mismatches": [],
+        "source_not_in_target_count": 0,
+        "target_not_in_source_count": 0,
+        "field_mismatches_count": 0
+      }
+    },
+    "DB2INST1.PROJECT": {
+      "source_table": "DB2INST1.PROJECT",
+      "target_table": "DB2INST1.PROJECT",
+      "source_rows": 20,
+      "target_rows": 20,
+      "source_time": 9.213405847549438,
+      "target_time": 9.31787896156311,
+      "differences": {
+        "source_not_in_target": [],
+        "target_not_in_source": [],
+        "field_mismatches": [],
+        "source_not_in_target_count": 0,
+        "target_not_in_source_count": 0,
+        "field_mismatches_count": 0
+      }
+    },
+    "DB2INST1.PURCHASEORDER": {
+      "source_table": "DB2INST1.PURCHASEORDER",
+      "target_table": "DB2INST1.PURCHASEORDER",
+      "source_rows": 6,
+      "target_rows": 6,
+      "source_time": 9.414539098739624,
+      "target_time": 9.351782083511353,
+      "differences": {
+        "source_not_in_target": [],
+        "target_not_in_source": [],
+        "field_mismatches": [],
+        "source_not_in_target_count": 0,
+        "target_not_in_source_count": 0,
+        "field_mismatches_count": 0
+      }
+    },
+    "DB2INST1.SALES": {
+      "source_table": "DB2INST1.SALES",
+      "target_table": "DB2INST1.SALES",
+      "source_rows": 41,
+      "target_rows": 41,
+      "source_time": 4.294850826263428,
+      "target_time": 9.113956212997437,
+      "differences": {
+        "source_not_in_target": [],
+        "target_not_in_source": [],
+        "field_mismatches": [],
+        "source_not_in_target_count": 0,
+        "target_not_in_source_count": 0,
+        "field_mismatches_count": 0
+      }
+    },
+    "DB2INST1.SAMPLE_DATA": {
+      "source_table": "DB2INST1.SAMPLE_DATA",
+      "target_table": "DB2INST1.SAMPLE_DATA",
+      "source_rows": 0,
+      "target_rows": 0,
+      "source_time": 9.339103937149048,
+      "target_time": 4.193145990371704,
+      "differences": {
+        "source_not_in_target": [],
+        "target_not_in_source": [],
+        "field_mismatches": [],
+        "source_not_in_target_count": 0,
+        "target_not_in_source_count": 0,
+        "field_mismatches_count": 0
+      }
+    },
+    "DB2INST1.STAFF": {
+      "source_table": "DB2INST1.STAFF",
+      "target_table": "DB2INST1.STAFF",
+      "source_rows": 35,
+      "target_rows": 35,
+      "source_time": 9.221131086349487,
+      "target_time": 4.173920154571533,
+      "differences": {
+        "source_not_in_target": [],
+        "target_not_in_source": [],
+        "field_mismatches": [],
+        "source_not_in_target_count": 0,
+        "target_not_in_source_count": 0,
+        "field_mismatches_count": 0
+      }
+    },
+    "DB2INST1.STAFFG": {
+      "source_table": "DB2INST1.STAFFG",
+      "target_table": "DB2INST1.STAFFG",
+      "source_rows": 35,
+      "target_rows": 35,
+      "source_time": 9.12882399559021,
+      "target_time": 4.321861028671265,
+      "differences": {
+        "source_not_in_target": [],
+        "target_not_in_source": [],
+        "field_mismatches": [],
+        "source_not_in_target_count": 0,
+        "target_not_in_source_count": 0,
+        "field_mismatches_count": 0
+      }
+    },
+    "DB2INST1.SUPPLIERS": {
+      "source_table": "DB2INST1.SUPPLIERS",
+      "target_table": "DB2INST1.SUPPLIERS",
+      "source_rows": 2,
+      "target_rows": 2,
+      "source_time": 9.11416506767273,
+      "target_time": 4.093843221664429,
+      "differences": {
+        "source_not_in_target": [],
+        "target_not_in_source": [],
+        "field_mismatches": [],
+        "source_not_in_target_count": 0,
+        "target_not_in_source_count": 0,
+        "field_mismatches_count": 0
+      }
+    },
+    "DB2INST1.VACT": {
+      "source_table": "DB2INST1.VACT",
+      "target_table": "DB2INST1.VACT",
+      "source_rows": 18,
+      "target_rows": 18,
+      "source_time": 9.157569885253906,
+      "target_time": 4.247956991195679,
+      "differences": {
+        "source_not_in_target": [],
+        "target_not_in_source": [],
+        "field_mismatches": [],
+        "source_not_in_target_count": 0,
+        "target_not_in_source_count": 0,
+        "field_mismatches_count": 0
+      }
+    },
+    "DB2INST1.VASTRDE1": {
+      "source_table": "DB2INST1.VASTRDE1",
+      "target_table": "DB2INST1.VASTRDE1",
+      "source_rows": 14,
+      "target_rows": 14,
+      "source_time": 9.189289093017578,
+      "target_time": 4.2963950634002686,
+      "differences": {
+        "source_not_in_target": [],
+        "target_not_in_source": [],
+        "field_mismatches": [],
+        "source_not_in_target_count": 0,
+        "target_not_in_source_count": 0,
+        "field_mismatches_count": 0
+      }
+    },
+    "DB2INST1.VASTRDE2": {
+      "source_table": "DB2INST1.VASTRDE2",
+      "target_table": "DB2INST1.VASTRDE2",
+      "source_rows": 42,
+      "target_rows": 42,
+      "source_time": 9.307237148284912,
+      "target_time": 9.230506896972656,
+      "differences": {
+        "source_not_in_target": [],
+        "target_not_in_source": [],
+        "field_mismatches": [],
+        "source_not_in_target_count": 0,
+        "target_not_in_source_count": 0,
+        "field_mismatches_count": 0
+      }
+    },
+    "DB2INST1.VDEPMG1": {
+      "source_table": "DB2INST1.VDEPMG1",
+      "target_table": "DB2INST1.VDEPMG1",
+      "source_rows": 14,
+      "target_rows": 14,
+      "source_time": 4.098962783813477,
+      "target_time": 9.424219369888306,
+      "differences": {
+        "source_not_in_target": [
+          {
+            "MIDINIT": null,
+            "DEPTNO": "D01",
+            "DEPTNAME": "DEVELOPMENT CENTER",
+            "MGRNO": null,
+            "FIRSTNME": null,
+            "LASTNAME": null,
+            "ADMRDEPT": "A00",
+            "row_hash": -684422754
+          },
+          {
+            "MIDINIT": null,
+            "DEPTNO": "F22",
+            "DEPTNAME": "BRANCH OFFICE F2",
+            "MGRNO": null,
+            "FIRSTNME": null,
+            "LASTNAME": null,
+            "ADMRDEPT": "E01",
+            "row_hash": 820777303
+          },
+          {
+            "MIDINIT": null,
+            "DEPTNO": "G22",
+            "DEPTNAME": "BRANCH OFFICE G2",
+            "MGRNO": null,
+            "FIRSTNME": null,
+            "LASTNAME": null,
+            "ADMRDEPT": "E01",
+            "row_hash": -949920476
+          },
+          {
+            "MIDINIT": null,
+            "DEPTNO": "H22",
+            "DEPTNAME": "BRANCH OFFICE H2",
+            "MGRNO": null,
+            "FIRSTNME": null,
+            "LASTNAME": null,
+            "ADMRDEPT": "E01",
+            "row_hash": -191374175
+          },
+          {
+            "MIDINIT": null,
+            "DEPTNO": "I22",
+            "DEPTNAME": "BRANCH OFFICE I2",
+            "MGRNO": null,
+            "FIRSTNME": null,
+            "LASTNAME": null,
+            "ADMRDEPT": "E01",
+            "row_hash": 152881366
+          },
+          {
+            "MIDINIT": null,
+            "DEPTNO": "J22",
+            "DEPTNAME": "BRANCH OFFICE J2",
+            "MGRNO": null,
+            "FIRSTNME": null,
+            "LASTNAME": null,
+            "ADMRDEPT": "E01",
+            "row_hash": -1507204024
+          }
+        ],
+        "target_not_in_source": [
+          {
+            "MIDINIT": null,
+            "DEPTNO": "D01",
+            "DEPTNAME": "DEVELOPMENT CENTER",
+            "MGRNO": null,
+            "FIRSTNME": null,
+            "LASTNAME": null,
+            "ADMRDEPT": "A00",
+            "row_hash": -684422754
+          },
+          {
+            "MIDINIT": null,
+            "DEPTNO": "F22",
+            "DEPTNAME": "BRANCH OFFICE F2",
+            "MGRNO": null,
+            "FIRSTNME": null,
+            "LASTNAME": null,
+            "ADMRDEPT": "E01",
+            "row_hash": 820777303
+          },
+          {
+            "MIDINIT": null,
+            "DEPTNO": "G22",
+            "DEPTNAME": "BRANCH OFFICE G2",
+            "MGRNO": null,
+            "FIRSTNME": null,
+            "LASTNAME": null,
+            "ADMRDEPT": "E01",
+            "row_hash": -949920476
+          },
+          {
+            "MIDINIT": null,
+            "DEPTNO": "H22",
+            "DEPTNAME": "BRANCH OFFICE H2",
+            "MGRNO": null,
+            "FIRSTNME": null,
+            "LASTNAME": null,
+            "ADMRDEPT": "E01",
+            "row_hash": -191374175
+          },
+          {
+            "MIDINIT": null,
+            "DEPTNO": "I22",
+            "DEPTNAME": "BRANCH OFFICE I2",
+            "MGRNO": null,
+            "FIRSTNME": null,
+            "LASTNAME": null,
+            "ADMRDEPT": "E01",
+            "row_hash": 152881366
+          },
+          {
+            "MIDINIT": null,
+            "DEPTNO": "J22",
+            "DEPTNAME": "BRANCH OFFICE J2",
+            "MGRNO": null,
+            "FIRSTNME": null,
+            "LASTNAME": null,
+            "ADMRDEPT": "E01",
+            "row_hash": -1507204024
+          }
+        ],
+        "field_mismatches": [],
+        "source_not_in_target_count": 6,
+        "target_not_in_source_count": 6,
+        "field_mismatches_count": 0
+      }
+    },
+    "DB2INST1.VDEPT": {
+      "source_table": "DB2INST1.VDEPT",
+      "target_table": "DB2INST1.VDEPT",
+      "source_rows": 14,
+      "target_rows": 14,
+      "source_time": 3.942481756210327,
+      "target_time": 9.123454809188843,
+      "differences": {
+        "source_not_in_target": [],
+        "target_not_in_source": [],
+        "field_mismatches": [],
+        "source_not_in_target_count": 0,
+        "target_not_in_source_count": 0,
+        "field_mismatches_count": 0
+      }
+    },
+    "DB2INST1.VEMP": {
+      "source_table": "DB2INST1.VEMP",
+      "target_table": "DB2INST1.VEMP",
+      "source_rows": 42,
+      "target_rows": 42,
+      "source_time": 4.406425952911377,
+      "target_time": 9.111066102981567,
+      "differences": {
+        "source_not_in_target": [],
+        "target_not_in_source": [],
+        "field_mismatches": [],
+        "source_not_in_target_count": 0,
+        "target_not_in_source_count": 0,
+        "field_mismatches_count": 0
+      }
+    },
+    "DB2INST1.VEMPDPT1": {
+      "source_table": "DB2INST1.VEMPDPT1",
+      "target_table": "DB2INST1.VEMPDPT1",
+      "source_rows": 42,
+      "target_rows": 42,
+      "source_time": 3.990806818008423,
+      "target_time": 9.103580236434937,
+      "differences": {
+        "source_not_in_target": [],
+        "target_not_in_source": [],
+        "field_mismatches": [],
+        "source_not_in_target_count": 0,
+        "target_not_in_source_count": 0,
+        "field_mismatches_count": 0
+      }
+    },
+    "DB2INST1.VEMPLP": {
+      "source_table": "DB2INST1.VEMPLP",
+      "target_table": "DB2INST1.VEMPLP",
+      "source_rows": 42,
+      "target_rows": 42,
+      "source_time": 4.0221428871154785,
+      "target_time": 8.842345952987671,
+      "differences": {
+        "source_not_in_target": [],
+        "target_not_in_source": [],
+        "field_mismatches": [],
+        "source_not_in_target_count": 0,
+        "target_not_in_source_count": 0,
+        "field_mismatches_count": 0
+      }
+    },
+    "DB2INST1.VEMPPROJACT": {
+      "source_table": "DB2INST1.VEMPPROJACT",
+      "target_table": "DB2INST1.VEMPPROJACT",
+      "source_rows": 73,
+      "target_rows": 73,
+      "source_time": 3.884690046310425,
+      "target_time": 8.906666040420532,
+      "differences": {
+        "source_not_in_target": [],
+        "target_not_in_source": [],
+        "field_mismatches": [],
+        "source_not_in_target_count": 0,
+        "target_not_in_source_count": 0,
+        "field_mismatches_count": 0
+      }
+    },
+    "DB2INST1.VFORPLA": {
+      "source_table": "DB2INST1.VFORPLA",
+      "target_table": "DB2INST1.VFORPLA",
+      "source_rows": 74,
+      "target_rows": 74,
+      "source_time": 8.896549940109253,
+      "target_time": 3.903268814086914,
+      "differences": {
+        "source_not_in_target": [],
+        "target_not_in_source": [],
+        "field_mismatches": [],
+        "source_not_in_target_count": 0,
+        "target_not_in_source_count": 0,
+        "field_mismatches_count": 0
+      }
+    },
+    "DB2INST1.VHDEPT": {
+      "source_table": "DB2INST1.VHDEPT",
+      "target_table": "DB2INST1.VHDEPT",
+      "source_rows": 14,
+      "target_rows": 14,
+      "source_time": 8.867927074432373,
+      "target_time": 8.830919981002808,
+      "differences": {
+        "source_not_in_target": [],
+        "target_not_in_source": [],
+        "field_mismatches": [],
+        "source_not_in_target_count": 0,
+        "target_not_in_source_count": 0,
+        "field_mismatches_count": 0
+      }
+    },
+    "DB2INST1.VPHONE": {
+      "source_table": "DB2INST1.VPHONE",
+      "target_table": "DB2INST1.VPHONE",
+      "source_rows": 42,
+      "target_rows": 42,
+      "source_time": 8.913640022277832,
+      "target_time": 8.903486967086792,
+      "differences": {
+        "source_not_in_target": [],
+        "target_not_in_source": [],
+        "field_mismatches": [],
+        "source_not_in_target_count": 0,
+        "target_not_in_source_count": 0,
+        "field_mismatches_count": 0
+      }
+    },
+    "DB2INST1.VPROJ": {
+      "source_table": "DB2INST1.VPROJ",
+      "target_table": "DB2INST1.VPROJ",
+      "source_rows": 20,
+      "target_rows": 20,
+      "source_time": 3.837402820587158,
+      "target_time": 8.842559099197388,
+      "differences": {
+        "source_not_in_target": [],
+        "target_not_in_source": [],
+        "field_mismatches": [],
+        "source_not_in_target_count": 0,
+        "target_not_in_source_count": 0,
+        "field_mismatches_count": 0
+      }
+    },
+    "DB2INST1.VPROJACT": {
+      "source_table": "DB2INST1.VPROJACT",
+      "target_table": "DB2INST1.VPROJACT",
+      "source_rows": 65,
+      "target_rows": 65,
+      "source_time": 3.898568868637085,
+      "target_time": 8.851658344268799,
+      "differences": {
+        "source_not_in_target": [],
+        "target_not_in_source": [],
+        "field_mismatches": [],
+        "source_not_in_target_count": 0,
+        "target_not_in_source_count": 0,
+        "field_mismatches_count": 0
+      }
+    },
+    "DB2INST1.VPROJRE1": {
+      "source_table": "DB2INST1.VPROJRE1",
+      "target_table": "DB2INST1.VPROJRE1",
+      "source_rows": 20,
+      "target_rows": 20,
+      "source_time": 8.870032787322998,
+      "target_time": 3.876842975616455,
+      "differences": {
+        "source_not_in_target": [],
+        "target_not_in_source": [],
+        "field_mismatches": [],
+        "source_not_in_target_count": 0,
+        "target_not_in_source_count": 0,
+        "field_mismatches_count": 0
+      }
+    },
+    "DB2INST1.VPSTRDE1": {
+      "source_table": "DB2INST1.VPSTRDE1",
+      "target_table": "DB2INST1.VPSTRDE1",
+      "source_rows": 14,
+      "target_rows": 14,
+      "source_time": 8.8303382396698,
+      "target_time": 8.890193939208984,
+      "differences": {
+        "source_not_in_target": [],
+        "target_not_in_source": [],
+        "field_mismatches": [],
+        "source_not_in_target_count": 0,
+        "target_not_in_source_count": 0,
+        "field_mismatches_count": 0
+      }
+    },
+    "DB2INST1.VPSTRDE2": {
+      "source_table": "DB2INST1.VPSTRDE2",
+      "target_table": "DB2INST1.VPSTRDE2",
+      "source_rows": 13,
+      "target_rows": 13,
+      "source_time": 3.8401520252227783,
+      "target_time": 8.853217124938965,
+      "differences": {
+        "source_not_in_target": [],
+        "target_not_in_source": [],
+        "field_mismatches": [],
+        "source_not_in_target_count": 0,
+        "target_not_in_source_count": 0,
+        "field_mismatches_count": 0
+      }
+    },
+    "DB2INST1.VSTAFAC1": {
+      "source_table": "DB2INST1.VSTAFAC1",
+      "target_table": "DB2INST1.VSTAFAC1",
+      "source_rows": 65,
+      "target_rows": 65,
+      "source_time": 3.848863124847412,
+      "target_time": 8.869849920272827,
+      "differences": {
+        "source_not_in_target": [],
+        "target_not_in_source": [],
+        "field_mismatches": [],
+        "source_not_in_target_count": 0,
+        "target_not_in_source_count": 0,
+        "field_mismatches_count": 0
+      }
+    },
+    "DB2INST1.VSTAFAC2": {
+      "source_table": "DB2INST1.VSTAFAC2",
+      "target_table": "DB2INST1.VSTAFAC2",
+      "source_rows": 73,
+      "target_rows": 73,
+      "source_time": 8.851664066314697,
+      "target_time": 3.851425886154175,
+      "differences": {
+        "source_not_in_target": [],
+        "target_not_in_source": [],
+        "field_mismatches": [],
+        "source_not_in_target_count": 0,
+        "target_not_in_source_count": 0,
+        "field_mismatches_count": 0
+      }
+    }
+  },
+  "summary": {
+    "total_tables": 57,
+    "tables_with_differences": 2,
+    "start_time": "2025-06-18T14:26:57.905636",
+    "end_time": "2025-06-18T15:08:01.048073"
+  }
+}

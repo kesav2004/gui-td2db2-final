@@ -1,0 +1,38 @@
+{
+    "EMPLOYEE": {
+        "_keys_": [],
+        "_user_": "DB2INST1",
+        "_columns_": [
+            "EMPNO",
+            "EDLEVEL",
+            "BIRTHDATE",
+            "BONUS",
+            "COMM"
+        ],
+        "_coltype_": {
+            "EMPNO": "CHARACTER",
+            "EDLEVEL": "SMALLINT",
+            "BIRTHDATE": "DATE",
+            "BONUS": "DECIMAL",
+            "COMM": "DECIMAL"
+        }
+    },
+    "EMPLOYEE2": {
+        "_keys_": [],
+        "_user_": "DB2INST1",
+        "_columns_": [
+            "EMPNO",
+            "EDLEVEL",
+            "BIRTHDATE",
+            "BONUS",
+            "COMM"
+        ],
+        "_coltype_": {
+            "EMPNO": "CHARACTER",
+            "EDLEVEL": "SMALLINT",
+            "BIRTHDATE": "DATE",
+            "BONUS": "DECIMAL",
+            "COMM": "DECIMAL"
+        }
+    }
+}

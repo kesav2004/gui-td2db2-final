@@ -1,0 +1,74 @@
+{
+  "tables": {
+    "SAMPLE_TABLE_1": {
+      "source_table": "SOURCE_SCHEMA.SAMPLE_TABLE_1",
+      "target_table": "TARGET_SCHEMA.SAMPLE_TABLE_1",
+      "source_rows": 1000,
+      "target_rows": 995,
+      "source_time": 2.5,
+      "target_time": 2.8,
+      "differences": {
+        "source_not_in_target": [
+          {
+            "id": 1,
+            "name": "John Doe",
+            "status": "active"
+          },
+          {
+            "id": 2,
+            "name": "Jane Smith",
+            "status": "inactive"
+          },
+          {
+            "id": 3,
+            "name": "Bob Johnson",
+            "status": "pending"
+          }
+        ],
+        "target_not_in_source": [
+          {
+            "id": 4,
+            "name": "Alice Brown",
+            "status": "active"
+          }
+        ],
+        "field_mismatches": [
+          {
+            "id": 5,
+            "difference": "source.amount=100.50, target.amount=100.00"
+          }
+        ],
+        "source_not_in_target_count": 3,
+        "target_not_in_source_count": 1,
+        "field_mismatches_count": 1
+      }
+    },
+    "SAMPLE_TABLE_2": {
+      "source_table": "SOURCE_SCHEMA.SAMPLE_TABLE_2",
+      "target_table": "TARGET_SCHEMA.SAMPLE_TABLE_2",
+      "source_rows": 500,
+      "target_rows": 500,
+      "source_time": 1.2,
+      "target_time": 1.1,
+      "differences": {
+        "source_not_in_target": [],
+        "target_not_in_source": [],
+        "field_mismatches": [],
+        "source_not_in_target_count": 0,
+        "target_not_in_source_count": 0,
+        "field_mismatches_count": 0
+      }
+    }
+  },
+  "summary": {
+    "start_time": "2025-01-17T10:00:00",
+    "end_time": "2025-01-17T10:05:30",
+    "total_tables": 2,
+    "total_differences": 5,
+    "tables_with_differences": 1
+  },
+  "job_info": {
+    "start_time": "2025-01-17T10:00:00",
+    "end_time": "2025-01-17T10:05:30"
+  }
+}

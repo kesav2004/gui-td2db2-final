@@ -1,0 +1,303 @@
+CREATE OR REPLACE PROCEDURE DG_I_O_40ANA_CBC.PROC_UPDATE_REPORTING_ENTITIES_NAME_NAT( 
+ IN par_COG_RUN_ID INTEGER, 
+ IN par_ETL_RUN_ID INTEGER, 
+ IN par_PROC_NR INTEGER, 
+ IN par_TABLE_NAME VARCHAR(40), 
+ OUT par_Status INTEGER) 
+ LANGUAGE SQL
+ BEGIN 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ DECLARE par_ZERO_ROWS, par_ACT_UPD, par_MIS_REP, par_STEP, par_ETL_RUN_MAX, par_COUNT INTEGER DEFAULT 0; 
+ 
+ DECLARE par_SQLSTATE CHARACTER(5); 
+ DECLARE par_SQLMSG VARCHAR(118); 
+ 
+ DECLARE par_TIN, SEI VARCHAR(50); 
+ DECLARE TC VARCHAR(2); 
+ DECLARE MRI, RETI VARCHAR(100); 
+ DECLARE DRI, CDRI VARCHAR(250); 
+ DECLARE CBI DECIMAL(19,0); 
+ DECLARE CTN, ERI INTEGER; 
+ DECLARE RP DATE; 
+ DECLARE SD TIMESTAMP(6);
+     DECLARE done INT DEFAULT 0; 
+ DECLARE STMT1, STMT2 VARCHAR(3000); 
+ DECLARE cur_UPDATE CURSOR FOR S1; 
+ DECLARE cur_COUNT CURSOR FOR S2; 
+ 
+ 
+ 
+ DECLARE EXIT HANDLER FOR SqlException 
+ BEGIN 
+ 
+ 
+ 
+ 
+ 
+ 
+ GET DIAGNOSTICS EXCEPTION 1 par_SQLMSG = MESSAGE_TEXT; 
+ 
+ 
+ ROLLBACK; 
+ 
+ UPDATE DG_I_O_40ANA_CBC.DpCBCD_runcontrol_30 
+ SET END_DATE = CURRENT TIMESTAMP 
+ , RUN_RESULT = 'ERROR' 
+ , RUN_COMMENT = Coalesce(RUN_COMMENT, '') || 'SQLEXCEPTION after step ' || Trim(par_STEP) || ': ' || par_SQLMSG || '; ' 
+ , ETL_RUN_ID_NAT = 0 
+ WHERE COG_RUN_ID = par_COG_RUN_ID 
+ AND PROCEDURE_NUMBER = par_PROC_NR 
+ AND PROCEDURE_NAME = 'PROC_UPDATE_REPORTING_ENTITIES_NAME_NAT'; 
+ 
+ SET par_STATUS = 1; 
+ 
+ END; 
+ 
+ 
+ DECLARE EXIT HANDLER FOR SQLWARNING 
+ BEGIN 
+ 
+ 
+ SET par_SQLSTATE = SqlState; 
+ 
+ 
+ ROLLBACK; 
+ 
+ UPDATE DG_I_O_40ANA_CBC.DpCBCD_runcontrol_30 
+ SET END_DATE = CURRENT TIMESTAMP 
+ , RUN_RESULT = 'ERROR' 
+ , RUN_COMMENT = Coalesce(RUN_COMMENT, '') || 'SQLWARNING sqlstate: ' || par_SQLSTATE || ' after step ' || Trim(par_STEP) || '; ' 
+ , ETL_RUN_ID_NAT = 0 
+ WHERE COG_RUN_ID = par_COG_RUN_ID 
+ AND PROCEDURE_NUMBER = par_PROC_NR 
+ AND PROCEDURE_NAME = 'PROC_UPDATE_REPORTING_ENTITIES_NAME_NAT'; 
+ 
+ SET par_STATUS = 1; 
+ 
+ END; 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ INSERT INTO DG_I_O_40ANA_CBC.DpCBCD_runcontrol_30 ( 
+ COG_RUN_ID 
+ , PROCEDURE_NUMBER 
+ , PROCEDURE_NAME 
+ , START_DATE) 
+ VALUES (par_COG_RUN_ID, par_PROC_NR, 'PROC_UPDATE_REPORTING_ENTITIES_NAME_NAT', CURRENT TIMESTAMP); 
+ 
+ IF par_TABLE_NAME NOT IN ('DpCBCD_repo_ent', 'DpCBCD_cbcrepos_sum', 'DpCBCD_cbcrepos_cnst_ents', 'DpCBCD_add_info') 
+ THEN 
+ BEGIN 
+ 
+ UPDATE DG_I_O_40ANA_CBC.DpCBCD_runcontrol_30 
+ SET END_DATE = CURRENT TIMESTAMP 
+ , RUN_RESULT = 'ERROR' 
+ , RUN_COMMENT = 'Table name provided as IN parameter is not accepted: ' || par_TABLE_NAME || '. ' 
+ , ETL_RUN_ID_NAT = 0 
+ WHERE COG_RUN_ID = par_COG_RUN_ID 
+ AND PROCEDURE_NUMBER = par_PROC_NR 
+ AND PROCEDURE_NAME = 'PROC_UPDATE_REPORTING_ENTITIES_NAME_NAT'; 
+ 
+ SET par_STATUS = 1; 
+ SET par_STEP = 1; 
+ 
+ END; 
+ ELSE 
+ BEGIN 
+ 
+ IF par_TABLE_NAME = 'DpCBCD_repo_ent' 
+ THEN 
+ SET par_TIN = 'TIN'; 
+ ELSE 
+ SET par_TIN = 'REPORTINGENTITYTIN'; 
+ END IF; 
+ 
+ 
+ SET STMT1 = 'SELECT Coalesce(MAX(ETL_RUN_ID),0)
+											FROM DG_I_O_40ANA_CBC.' || par_TABLE_NAME || '
+											WHERE RE_NAME_KEY IS NULL
+											AND TRANSMITTINGCOUNTRY = ''NL''
+											AND ETL_RUN_ID > ' || Trim(Cast(par_ETL_RUN_ID AS VARCHAR(19))) || ';'; 
+ 
+ 
+ PREPARE S1 FROM STMT1; 
+ OPEN cur_UPDATE; 
+ FETCH cur_UPDATE INTO par_ETL_RUN_MAX; 
+ CLOSE cur_UPDATE; 
+ 
+ SET par_STEP = 2; 
+ 
+ 
+ BEGIN 
+ 
+ 
+ 
+ 
+ SET STMT1 = 'SELECT DISTINCT T.TRANSMITTINGCOUNTRY
+				, T.' || par_TIN || '
+				, T.REPORTINGPERIOD
+				, T.MESSAGEREFID
+				, T.CBCBODYID
+				, T.START_DATE
+				, T.ETL_RUN_ID
+				FROM DG_I_O_40ANA_CBC.' || par_TABLE_NAME || ' AS T
+				WHERE T.RE_NAME_KEY IS NULL
+				AND T.TRANSMITTINGCOUNTRY = ''NL''
+				AND T.ETL_RUN_ID > ' || Trim(Cast(par_ETL_RUN_ID AS VARCHAR(19))) || '
+				ORDER BY T.ETL_RUN_ID, T.START_DATE, T.CBCBODYID;'; 
+ 
+ SET par_STEP = 3; 
+ 
+ 
+ PREPARE S1 FROM STMT1; 
+ 
+ 
+ OPEN cur_UPDATE; 
+ 
+ L1: LOOP 
+ 
+ 
+ FETCH cur_UPDATE INTO TC, RETI, RP, MRI, CBI, SD, ERI; 
+ 
+ 
+ IF (SqlCode > 0) THEN 
+ LEAVE L1; 
+ END IF; 
+ 
+ 
+ 
+ 
+ SET STMT2 = 'SELECT COUNT(RE_NAME_KEY) OVER (PARTITION BY TRANSMITTINGCOUNTRY, ' || par_TIN || ', REPORTINGPERIOD) AS XVAL
+								FROM DG_I_O_40ANA_CBC.' || par_TABLE_NAME || '
+								WHERE RE_NAME_KEY IS NOT NULL
+								AND TRANSMITTINGCOUNTRY = ''NL''
+								AND ' || par_TIN || ' = ''' || RETI || '''
+								AND REPORTINGPERIOD = DATE ''' || Cast(Cast(RP AS DATE Format 'dd-mm-yyyy') AS DATE Format 'yyyy-mm-dd') || ''';'; 
+ 
+ 
+ 
+ SET par_COUNT = 0 ; 
+ 
+ PREPARE S2 FROM STMT2; 
+ OPEN cur_COUNT; 
+ FETCH cur_COUNT INTO par_COUNT; 
+ CLOSE cur_COUNT; 
+ 
+ 
+ IF par_COUNT > 0 THEN 
+ 
+ 
+ 
+ SET STMT2 = 'UPDATE T
+								FROM DG_I_O_40ANA_CBC.' || par_TABLE_NAME || ' AS T,
+									(SELECT DISTINCT TRANSMITTINGCOUNTRY, ' || par_TIN || ', REPORTINGPERIOD, RE_NAME_KEY
+										FROM DG_I_O_40ANA_CBC.' || par_TABLE_NAME || '
+										WHERE RE_NAME_KEY IS NOT NULL
+									) AS S
+								SET RE_NAME_KEY = S.RE_NAME_KEY
+								WHERE T.TRANSMITTINGCOUNTRY = S.TRANSMITTINGCOUNTRY
+								AND T.' || par_TIN || ' = S.' || par_TIN || '
+								AND T.REPORTINGPERIOD = S.REPORTINGPERIOD
+								AND T.TRANSMITTINGCOUNTRY = ''NL''
+								AND T.' || par_TIN || ' = ''' || RETI || '''
+								AND T.ETL_RUN_ID = ' || Trim(Cast(ERI AS VARCHAR(19))) || '
+								AND T.CBCBODYID = ' || Trim(CBI (Format 'ZZZZZZZZZZZZZZZZZZ9')) || ';'; 
+ 
+ ELSE 
+ 
+ 
+ 
+ 
+ 
+ IF par_TABLE_NAME = 'DpCBCD_repo_ent' 
+ THEN 
+ 
+ 
+ 
+ SET STMT2 = 'UPDATE T
+								FROM DG_I_O_40ANA_CBC.' || par_TABLE_NAME || ' AS T,
+									DG_I_O_40ANA_CBC.DpCBCD_repo_ent_name AS N
+								SET RE_NAME_KEY = N.NAME
+								WHERE T.' || par_TIN || ' = N.REPORTINGENTITYTIN
+								AND T.ETL_RUN_ID = N.ETL_RUN_ID
+								AND T.CBCBODYID = N.CBCBODYID
+								AND T.' || par_TIN || ' = ''' || RETI || '''
+								AND T.TRANSMITTINGCOUNTRY = ''NL''
+								AND T.CBCBODYID = ' || Trim(CBI (Format 'ZZZZZZZZZZZZZZZZZZ9')) || '
+								AND T.ETL_RUN_ID = ' || Trim(Cast(ERI AS VARCHAR(19))) || ';'; 
+ 
+ ELSE 
+ 
+ 
+ 
+ SET STMT2 = 'UPDATE T
+								FROM DG_I_O_40ANA_CBC.' || par_TABLE_NAME || ' AS T,
+									DG_I_O_40ANA_CBC.DpCBCD_repo_ent AS N
+								SET RE_NAME_KEY = N.RE_NAME_KEY
+								WHERE T.' || par_TIN || ' = N.TIN
+								AND T.ETL_RUN_ID = N.ETL_RUN_ID
+								AND T.CBCBODYID = N.CBCBODYID
+								AND T.' || par_TIN || ' = ''' || RETI || '''
+								AND T.TRANSMITTINGCOUNTRY = ''NL''
+								AND T.CBCBODYID = ' || Trim(CBI (Format 'ZZZZZZZZZZZZZZZZZZ9')) || '
+								AND T.ETL_RUN_ID = ' || Trim(Cast(ERI AS VARCHAR(19))) || ';'; 
+ 
+ END IF; 
+ 
+ END IF; 
+ 
+ EXECUTE IMMEDIATE STMT2; 
+ 
+ SET par_ACT_UPD = par_ACT_UPD + Activity_Count; 
+ SET par_STEP = 4; 
+ 
+ END LOOP L1; 
+ 
+ CLOSE cur_UPDATE; 
+ 
+ 
+ END; 
+ 
+ 
+ UPDATE DG_I_O_40ANA_CBC.DpCBCD_runcontrol_30 
+ SET END_DATE = CURRENT TIMESTAMP 
+ , RUN_RESULT = 'Success' 
+ , RUN_COMMENT = Coalesce(RUN_COMMENT, '') || Trim(Cast(par_ACT_UPD - par_ZERO_ROWS AS VARCHAR(11))) || ' records updated.' 
+ , ETL_RUN_ID_NAT = par_ETL_RUN_MAX 
+ WHERE COG_RUN_ID = par_COG_RUN_ID 
+ AND PROCEDURE_NUMBER = par_PROC_NR 
+ AND PROCEDURE_NAME = 'PROC_UPDATE_REPORTING_ENTITIES_NAME_NAT'; 
+ 
+ SET par_STATUS = 0; 
+ 
+ END; 
+ END IF; 
+ 
+ END@

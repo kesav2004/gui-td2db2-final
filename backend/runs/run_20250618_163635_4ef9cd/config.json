@@ -1,0 +1,20 @@
+{
+  "source_connection": {
+    "url": "jdbc:db2://tel-gdc-cdc-prakedia1.fyre.ibm.com:25010/SAMPLE",
+    "user": "cdcadm",
+    "password": "Rajisthanisgreat@777I",
+    "driver": "com.ibm.db2.jcc.DB2Driver"
+  },
+  "target_connection": {
+    "url": "jdbc:db2://tel-gdc-cdc-prakedia1.fyre.ibm.com:25010/SAMPLE",
+    "user": "cdcadm ",
+    "password": "Rajisthanisgreat@777I",
+    "driver": "com.ibm.db2.jcc.DB2Driver"
+  },
+  "source_tables": [
+    "DB2INST1.EMPLOYEE2"
+  ],
+  "target_tables": [
+    "DB2INST1.EMPLOYEE2"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+    "EMPLOYEE": {
+        "_keys_": [],
+        "_user_": "TARGET_SCHEMA",
+        "_columns_": [
+            "EMPNO",
+            "FIRSTNME",
+            "PHONENO",
+            "JOB",
+            "EDLEVEL",
+            "BIRTHDATE",
+            "SALARY",
+            "BONUS",
+            "COMM"
+        ],
+        "_coltype_": {
+            "EMPNO": "CHARACTER",
+            "FIRSTNME": "VARCHAR",
+            "PHONENO": "CHARACTER",
+            "JOB": "CHARACTER",
+            "EDLEVEL": "SMALLINT",
+            "BIRTHDATE": "DATE",
+            "SALARY": "DECIMAL",
+            "BONUS": "DECIMAL",
+            "COMM": "DECIMAL"
+        }
+    }
+}

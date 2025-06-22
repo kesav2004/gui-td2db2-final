@@ -1,0 +1,30 @@
+
+@import '@carbon/styles/css/styles.css';
+
+/* Custom IBM-style colors and overrides */
+body {
+  font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #161616;
+}
+
+.ibm-header {
+  background-color: #0f62fe;
+  color: white;
+}
+
+.ibm-blue {
+  background-color: #0f62fe;
+}
+
+.ibm-light-blue {
+  background-color: #e5f6ff;
+}
+
+.ibm-gray {
+  background-color: #f4f4f4;
+}
+
+.card-shadow {
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+}

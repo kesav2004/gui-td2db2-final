@@ -1,0 +1,2 @@
+table,Keys,predicate,exclude_fields,include_fields,groupby_fields
+SOURCE_SCHEMA.EMPLOYEE,EMPNO,,,"BIRTHDATE,BONUS,COMM,EMPNO,EDLEVEL",

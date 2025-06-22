@@ -1,0 +1,26 @@
+{
+    "EMPLOYEE": {
+        "_keys_": [],
+        "_user_": "TARGET_SCHEMA",
+        "_columns_": [
+            "EMPNO",
+            "PHONENO",
+            "EDLEVEL",
+            "SEX",
+            "BIRTHDATE",
+            "SALARY",
+            "BONUS",
+            "COMM"
+        ],
+        "_coltype_": {
+            "EMPNO": "CHARACTER",
+            "PHONENO": "CHARACTER",
+            "EDLEVEL": "SMALLINT",
+            "SEX": "CHARACTER",
+            "BIRTHDATE": "DATE",
+            "SALARY": "DECIMAL",
+            "BONUS": "DECIMAL",
+            "COMM": "DECIMAL"
+        }
+    }
+}

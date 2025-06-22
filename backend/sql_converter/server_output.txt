@@ -1,0 +1,5 @@
+DB21034E  The command was processed as an SQL statement because it was not a 
+valid Command Line Processor command.  During SQL processing it returned:
+SQL0104N  An unexpected token "SELECT SqlState INTO" was found following 
+"LWARNING     BEGIN  ".  Expected tokens may include:  "<call>".  LINE 
+NUMBER=38.  SQLSTATE=42601

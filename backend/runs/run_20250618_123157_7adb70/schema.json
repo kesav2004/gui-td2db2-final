@@ -1,0 +1,62 @@
+{
+    "EMPLOYEE2": {
+        "_keys_": [],
+        "_user_": "DB2INST1",
+        "_columns_": [
+            "EMPNO",
+            "FIRSTNME",
+            "MIDINIT",
+            "LASTNAME",
+            "WORKDEPT",
+            "PHONENO",
+            "HIREDATE",
+            "JOB",
+            "EDLEVEL",
+            "SEX",
+            "COMM"
+        ],
+        "_coltype_": {
+            "EMPNO": "CHARACTER",
+            "FIRSTNME": "VARCHAR",
+            "MIDINIT": "CHARACTER",
+            "LASTNAME": "VARCHAR",
+            "WORKDEPT": "CHARACTER",
+            "PHONENO": "CHARACTER",
+            "HIREDATE": "DATE",
+            "JOB": "CHARACTER",
+            "EDLEVEL": "SMALLINT",
+            "SEX": "CHARACTER",
+            "COMM": "DECIMAL"
+        }
+    },
+    "EMPLOYEE3": {
+        "_keys_": [],
+        "_user_": "DB2INST1",
+        "_columns_": [
+            "EMPNO",
+            "FIRSTNME",
+            "MIDINIT",
+            "LASTNAME",
+            "WORKDEPT",
+            "PHONENO",
+            "HIREDATE",
+            "JOB",
+            "EDLEVEL",
+            "SEX",
+            "COMM"
+        ],
+        "_coltype_": {
+            "EMPNO": "CHARACTER",
+            "FIRSTNME": "VARCHAR",
+            "MIDINIT": "CHARACTER",
+            "LASTNAME": "VARCHAR",
+            "WORKDEPT": "CHARACTER",
+            "PHONENO": "CHARACTER",
+            "HIREDATE": "DATE",
+            "JOB": "CHARACTER",
+            "EDLEVEL": "SMALLINT",
+            "SEX": "CHARACTER",
+            "COMM": "DECIMAL"
+        }
+    }
+}

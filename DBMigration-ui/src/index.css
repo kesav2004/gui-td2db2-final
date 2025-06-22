@@ -1,0 +1,185 @@
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 9%;
+
+    --primary: 214 100% 53%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 0 0% 96%;
+    --secondary-foreground: 0 0% 9%;
+
+    --muted: 0 0% 96%;
+    --muted-foreground: 0 0% 45%;
+
+    --accent: 214 100% 97%;
+    --accent-foreground: 214 100% 53%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 0 0% 89%;
+    --input: 0 0% 89%;
+    --ring: 214 100% 53%;
+
+    --radius: 0;
+
+    --sidebar-background: 0 0% 100%;
+    --sidebar-foreground: 0 0% 9%;
+    --sidebar-primary: 214 100% 53%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 0 0% 96%;
+    --sidebar-accent-foreground: 0 0% 9%;
+    --sidebar-border: 0 0% 89%;
+    --sidebar-ring: 214 100% 53%;
+  }
+
+  .dark {
+    --background: 0 0% 9%;
+    --foreground: 0 0% 100%;
+
+    --card: 0 0% 9%;
+    --card-foreground: 0 0% 100%;
+
+    --popover: 0 0% 9%;
+    --popover-foreground: 0 0% 100%;
+
+    --primary: 214 100% 53%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 0 0% 22%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 0 0% 22%;
+    --muted-foreground: 0 0% 65%;
+
+    --accent: 214 100% 27%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 0 0% 22%;
+    --input: 0 0% 22%;
+    --ring: 214 100% 53%;
+
+    --sidebar-background: 0 0% 9%;
+    --sidebar-foreground: 0 0% 100%;
+    --sidebar-primary: 214 100% 53%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 0 0% 22%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 0 0% 22%;
+    --sidebar-ring: 214 100% 53%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+  }
+}
+
+/* Carbon Design System specific styles */
+@layer components {
+  .carbon-label {
+    @apply text-sm font-medium text-carbon-gray-70 mb-2 inline-block;
+  }
+  
+  .carbon-field-caption {
+    @apply text-xs text-carbon-gray-60 mt-1;
+  }
+  
+  .carbon-button-primary {
+    @apply bg-carbon-blue text-white font-medium py-2 px-4 rounded-none hover:bg-carbon-blue-60 transition-colors;
+  }
+  
+  .carbon-button-secondary {
+    @apply border border-carbon-blue bg-transparent text-carbon-blue font-medium py-2 px-4 rounded-none hover:bg-carbon-blue hover:bg-opacity-10 transition-colors;
+  }
+  
+  .carbon-field {
+    @apply border border-carbon-gray-50 bg-white px-4 py-2 w-full rounded-none focus:border-carbon-blue focus:outline-none;
+  }
+  
+  .carbon-checkbox {
+    @apply h-4 w-4 border border-carbon-gray-50 text-carbon-blue rounded-none focus:ring-carbon-blue;
+  }
+  
+  .carbon-card {
+    @apply border border-carbon-gray-20 bg-white p-4;
+  }
+  
+  .carbon-tag {
+    @apply inline-flex items-center px-2 py-1 bg-carbon-gray-20 text-carbon-gray-100 text-xs font-medium;
+  }
+  
+  .carbon-header {
+    @apply bg-carbon-gray-100 text-white py-4 px-6;
+  }
+  
+  .carbon-nav {
+    @apply bg-carbon-gray-10 border-r border-carbon-gray-20 min-h-screen;
+  }
+  
+  .carbon-table {
+    @apply min-w-full divide-y divide-carbon-gray-20;
+  }
+  
+  .carbon-table-header {
+    @apply bg-carbon-gray-10 text-carbon-gray-100 text-left text-xs font-medium uppercase tracking-wider py-3 px-4;
+  }
+  
+  .carbon-table-cell {
+    @apply py-3 px-4 border-b border-carbon-gray-20;
+  }
+  
+  .carbon-tabs {
+    @apply flex border-b border-carbon-gray-20;
+  }
+  
+  .carbon-tab {
+    @apply px-4 py-2 border-b-2 font-medium;
+  }
+  
+  .carbon-tab-selected {
+    @apply border-carbon-blue text-carbon-blue;
+  }
+  
+  .carbon-tab-unselected {
+    @apply border-transparent text-carbon-gray-60 hover:text-carbon-gray-100;
+  }
+
+  .carbon-dropdown {
+    @apply relative inline-block w-full;
+  }
+  
+  .carbon-dropdown-button {
+    @apply flex items-center justify-between w-full border border-carbon-gray-50 bg-white px-4 py-2 text-left;
+  }
+  
+  .carbon-dropdown-content {
+    @apply absolute z-10 w-full bg-white border border-carbon-gray-30 mt-1;
+  }
+  
+  .carbon-dropdown-item {
+    @apply block px-4 py-2 hover:bg-carbon-gray-10 w-full text-left;
+  }
+}

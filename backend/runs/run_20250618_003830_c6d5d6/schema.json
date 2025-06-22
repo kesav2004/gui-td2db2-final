@@ -1,0 +1,58 @@
+{
+    "EMPLOYEE": {
+        "_keys_": [],
+        "_user_": "DB2INST1",
+        "_columns_": [
+            "EMPNO",
+            "FIRSTNME",
+            "WORKDEPT",
+            "PHONENO",
+            "EDLEVEL",
+            "SEX",
+            "BIRTHDATE",
+            "SALARY",
+            "BONUS",
+            "COMM"
+        ],
+        "_coltype_": {
+            "EMPNO": "CHARACTER",
+            "FIRSTNME": "VARCHAR",
+            "WORKDEPT": "CHARACTER",
+            "PHONENO": "CHARACTER",
+            "EDLEVEL": "SMALLINT",
+            "SEX": "CHARACTER",
+            "BIRTHDATE": "DATE",
+            "SALARY": "DECIMAL",
+            "BONUS": "DECIMAL",
+            "COMM": "DECIMAL"
+        }
+    },
+    "EMPLOYEE2": {
+        "_keys_": [],
+        "_user_": "DB2INST1",
+        "_columns_": [
+            "EMPNO",
+            "FIRSTNME",
+            "WORKDEPT",
+            "PHONENO",
+            "EDLEVEL",
+            "SEX",
+            "BIRTHDATE",
+            "SALARY",
+            "BONUS",
+            "COMM"
+        ],
+        "_coltype_": {
+            "EMPNO": "CHARACTER",
+            "FIRSTNME": "VARCHAR",
+            "WORKDEPT": "CHARACTER",
+            "PHONENO": "CHARACTER",
+            "EDLEVEL": "SMALLINT",
+            "SEX": "CHARACTER",
+            "BIRTHDATE": "DATE",
+            "SALARY": "DECIMAL",
+            "BONUS": "DECIMAL",
+            "COMM": "DECIMAL"
+        }
+    }
+}
